@@ -1,0 +1,9 @@
+a {
+  color: #0e9ce0;
+}
+span:lang(ja) {
+  font-family: sans-serif;
+}
+span:lang(cn) {
+  font-family: sans-serif;
+}
