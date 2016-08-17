@@ -7,3 +7,16 @@ span:lang(ja) {
 span:lang(cn) {
   font-family: sans-serif;
 }
+.temp > li > a {
+  padding: 0px 15px !important;
+}
+.temp > li > a:hover,
+.temp > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+.temp > li.disabled > a:hover,
+.temp > li.disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
