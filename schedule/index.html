@@ -289,10 +289,39 @@
           </p>
 
           <h4><a href="http://www.jhhuggins.org">Jonathan Huggins</a> (MIT)</h4>
-          <h4>TBA</h4>
+          <h4>Coresets for Scalable Bayesian Inference</h4>
           <p>
           <strong>Abstract</strong>.
-          TBA.
+          The use of Bayesian methods in large-scale data settings is attractive
+          because of the rich hierarchical models, uncertainty quantification,
+          and prior specification they provide. Standard Bayesian inference
+          algorithms are computationally expensive, however, making their direct
+          application to large datasets difficult or infeasible. Recent work on
+          scaling Bayesian inference has focused on modifying the underlying
+          algorithms to, for example, use only a random data subsample at each
+          iteration. I leverage the insight that data is often redundant to
+          instead obtain a weighted subset of the data (called a coreset) that
+          is much smaller than the original dataset. One can then use this small
+          coreset in any number of existing posterior inference algorithms
+          without modification. In this talk, I discuss an efficient coreset
+          construction algorithm, which involves calculating a
+          likelihood-specific importance distribution over the data, then
+          subsampling and re-weighting the data using that distribution. The
+          algorithm leads to an approximation of the log-likelihood up to a
+          multiplicative error. Crucially for the large-scale data setting, the
+          proposed approach permits efficient construction of coresets in both
+          streaming and parallel settings. I show how to apply the algorithm to
+          construct coresets for Bayesian logistic regression models. I give
+          theoretical guarantees on the size and approximation quality of the
+          coreset -- both for fixed, known datasets, and in expectation for a
+          wide class of data generative models. I demonstrate the efficacy of
+          the approach on a number of synthetic and real-world datasets, and
+          find that, in practice, the size of the coreset is independent of the
+          original dataset size. To conclude, I will discuss shortcomings of the
+          multiplicative approximation guarantee provided by the coreset
+          construction algorithm and why it is not ideal for the Bayesian
+          setting. I propose an alternative approximation guarantee that is
+          better suited for obtaining high-quality Bayesian inferences.
           <!--<br>                                                        -->
           <!--Joint work with Alexander G. de G. Matthews, Nicolo Fusi,   -->
           <!--Maurizio Filippone, Neil D. Lawrence, and Zoubin Ghahramani.-->
