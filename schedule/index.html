@@ -328,10 +328,24 @@
           </p>
 
           <h4><a href="http://www.stat.berkeley.edu/~jeff/">Jeffrey Regier</a> (UC Berkeley)</h4>
-          <h4>TBA</h4>
+          <h4>Learning an astronomical catalog of the visible universe through
+scalable Bayesian inference</h4>
           <p>
           <strong>Abstract</strong>.
-          TBA.
+          A central problem in astronomy is to infer locations, colors, and
+          other properties of stars and galaxies appearing in astronomical
+          images. In the first part of this talk, I present a generative model
+          for astronomical images. The number of photons arriving at each pixel
+          during an exposure is Poisson distributed, with a rate parameter that
+          is a deterministic function of the latent properties of the imaged
+          stars and galaxies. A variational Bayes procedure approximates the
+          posterior distribution of the latent properties, attaining
+          state-of-the-art results. In the second part of the talk, I report on
+          scaling the procedure to a 55 TB collection of images. Our
+          implementation is written entirely in Julia, a new high-level dynamic
+          programming language. Using shared and distributed memory parallelism,
+          we demonstrate effective load balancing and scaling on up to 16,384
+          Xeon cores on the NERSC Cori supercomputer.
           <!--<br>                                                       -->
           <!--Joint work with Nick Foti, Jason Xu, Dillon Laird, and Alex-->
           <!--Tank.                                                      -->
