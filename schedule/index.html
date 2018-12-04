@@ -120,8 +120,8 @@
                 <td width="8%">Invited</td>
                 <td>
                 David Duvenaud: <em>Self-tuning Gradient Estimators for Discrete Random Variables</em>
-                <!-- <a href="/2018/schedule/Marin2018.pdf"
-                class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Duvenaud2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
               <tr>
@@ -129,8 +129,8 @@
                 <td>Contributed</td>
                 <td>
                 Maria I. Gorinova: <em>Automatic Reparameterisation in Probabilistic Programming</em>
-                <!-- <a href="/2018/schedule/Gorinova2018.pdf" -->
-                <!-- class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Gorinova2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
               <tr>
@@ -138,8 +138,8 @@
                 <td>Invited</td>
                 <td>
                 Tamara Broderick: <em>Automated Scalable Bayesian Inference via Data Summarization</em>
-                <!-- <a href="/2018/schedule/Broderick2018.pdf"
-                class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Broderick2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
             </tbody>
@@ -164,8 +164,8 @@
                 <td width="8%">Contributed</td>
                 <td>
                 George Tucker: <em>Doubly Reparameterized Gradient Estimators for Monte Carlo Objectives</em>
-                <!-- <a href="/2018/schedule/Tucker2018.pdf"
-                class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Tucker2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
               <tr>
@@ -182,8 +182,8 @@
                 <td>Contributed</td>
                 <td>
                 David Burt: <em>Explicit Rates of Convergence for Sparse Variational Inference in Gaussian Process Regression</em>
-                <!-- <a href="/2018/schedule/Burt2018.pdf"
-                class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Burt2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
             </tbody>
@@ -211,8 +211,8 @@
                 <td width="8%">Invited</td>
                 <td>
                 Thomas Schon: <em>Sequential Monte Carlo in the machine learning toolbox</em>
-                <!-- <a href="/2018/schedule/Schon2018.pdf"
-                class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Schon2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
               <tr>
@@ -229,8 +229,8 @@
                 <td>Invited</td>
                 <td>
                 Sebastian Nowozin: <em>Debiasing Approximate Inference</em>
-                <!-- <a href="/2018/schedule/Nowozin2018.pdf"
-                class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Nowozin2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
             </tbody>
@@ -267,8 +267,8 @@
                 <td>Invited</td>
                 <td>
                 Emtiyaz Khan: <em>Fast yet Simple Natural-Gradient Descent for Variational Inference</em>
-                <!-- <a href="/2018/schedule/Khan2018.pdf"
-                class="btn btn-default btn-xs">Slides</a> -->
+                <a href="/2018/schedule/Khan2018.pdf"
+                class="btn btn-default btn-xs">Slides</a>
                 </td>
               </tr>
               <tr>
@@ -301,94 +301,37 @@
           </table>
         </div>
 
+        
         <!-- 
         <div class="row">
           <h3>Abstracts</h3>
           <hr>
-          <h4><a href="http://homepages.inf.ed.ac.uk/imurray2">Iain Murray</a>
-          (University of Edinburgh)</h4>
-          <h4>Learning priors, likelihoods, or posteriors</h4>
+          <h4><a href="http://www.tamarabroderick.com/">Tamara Broderick</a>
+          (MIT)</h4>
+          <h4>Automated Scalable Bayesian Inference via Data Summarization</h4>
           <p>
           <strong>Abstract</strong>.
-          As the description of the workshop states: variational and
-          Monte Carlo methods are currently the mainstream techniques
-          for approximate Bayesian inference. However, we can also
-          apply machine learning models to solve inference problems in
-          several ways. Firstly, there's no point doing careful
-          Bayesian inference if the model is silly. We can represent
-          good models, often with hard-to-specify priors or expensive
-          likelihoods, with surrogates learned from data. Secondly, we
-          can learn how to do inference from experience or simulated
-          data. However, this is a workshop, so we can have a friendly
-          conversation... There's a huge choice of what to do here,
-          and frankly it's often not clear what the best approach is,
-          and there are a lot of open theoretical questions. I'll give
-          some thoughts, but may raise more questions than answers.
+        	Bayesian methods are attractive for analyzing large-scale data due to
+			in part to their coherent uncertainty quantification, ability to model
+			complex phenomena, and ease of incorporating expert information. Many
+			standard Bayesian inference algorithms are often computationally
+			expensive, however, so their direct application to large datasets can
+			be difficult or infeasible. Other standard algorithms sacrifice
+			accuracy in the pursuit of scalability. We take a new approach.
+			Namely, we leverage the insight that data often exhibit approximate
+			redundancies to instead obtain a weighted subset of the data (called a
+			"coreset") that is much smaller than the original dataset. We can then
+			use this small coreset as input to existing Bayesian inference
+			algorithms without modification. We provide theoretical guarantees on
+			the size and approximation quality of the coreset. In particular, we
+			show that our method provides geometric decay in posterior
+			approximation error as a function of coreset size. We validate on both
+			synthetic and real datasets, demonstrating that our method reduces
+			posterior approximation error by orders of magnitude relative to
+			uniform random subsampling.
           </p>
-          <h4><a href="http://yingzhenh4.net/">Yingzhen Li</a>
-          (University of Cambridge)</h4>
-          <h4>Gradient Estimators for Implicit Models</h4>
-          <p>
-          <strong>Abstract</strong>.
-          This talk is organised in two parts. First I will start by
-          revisiting fundamental tractability issues of Bayesian
-          computation and argue that density evaluation of the
-          approximate posterior is mostly unnecessary. Then I will
-          present one of our recent work on an algorithm for fitting
-          implicit posterior distributions. In a nutshell, we proposed
-          a gradient estimation method that allow variational
-          inference to be applied to those approximate distributions
-          without a tractable density.
-          </p>
-          <h4><a href="http://dawenl.github.io">Dawen Liang</a>
-          (Netflix)</h4>
-          <h4>Variational Autoencoders for Recommendation</h4>
-          <p>
-          <strong>Abstract</strong>.
-          In this talk, I will present how we extend variational
-          autoencoders (VAEs) to collaborative filtering for implicit
-          feedback. We introduce a different regularization parameter
-          for the learning objective, which proves to be crucial for
-          achieving competitive performance. The resulting model and
-          learning algorithm has information-theoretic connections to
-          maximum entropy discrimination and the information
-          bottleneck principle, as well as many recent work on
-          understanding the trade-offs in learning latent variable
-          models with VAEs. Empirically, we show that the proposed
-          approach significantly outperforms state-of-the-art
-          baselines on several real-world datasets. Finally, we
-          identify the pros and cons of employing a principled
-          Bayesian inference approach and characterize settings where
-          it provides the most significant improvements.
-          </p>
-          <h4><a href="http://adamian.github.io">Andreas
-          Damianou</a> (Amazon)</h4>
-          <h4>Variational inference in deep Gaussian processes</h4>
-          <p>
-          <strong>Abstract</strong>.
-          Combining deep nets with probabilistic reasoning is
-          challenging, because uncertainty needs to be propagated
-          across the neural network during inference. This comes in
-          addition to the (easier) propagation of gradients. In this
-          talk I will talk about a family of variational approximation
-          methods developed to tackle the aforementioned computational
-          issue in Deep Gaussian processes, which can be seen as
-          non-parametric Bayesian neural networks.
-          </p>
-          <h4><a href="https://www.hiit.fi/u/ahonkela/">Antti
-          Honkela</a> (University of Helsinki)</h4>
-          <h4>Differential privacy and Bayesian learning</h4>
-          <p>
-          <strong>Abstract</strong>.
-          Differential privacy allows deriving strong privacy
-          guarantees for algorithms using private data. In my talk I
-          will introduce and review different approaches for
-          differentially private Bayesian learning building upon
-          different forms of exact and approximate inference.
-          </p>
-        -->
-
-      </div>
+    	</div>
+  		-->
 
     </div>
 
