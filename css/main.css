@@ -1,5 +1,9 @@
-a {
-  color: #0e9ce0;
+/* a {
+  color: #095172;
+} */
+.nav-link {
+  /* color: #095172 !important; */
+  padding: 4px 0px 5px !important;
 }
 span:lang(ja) {
   font-family: sans-serif;
@@ -21,3 +25,9 @@ span:lang(cn) {
   text-decoration: underline;
   background-color: transparent;
 }
+
+.subsec-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
