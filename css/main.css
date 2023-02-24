@@ -5,6 +5,10 @@
   /* color: #095172 !important; */
   padding: 4px 0px 5px !important;
 }
+ul {
+  list-style-position: inside; 
+}
+
 span:lang(ja) {
   font-family: sans-serif;
 }
