@@ -6,7 +6,7 @@
   padding: 4px 0px 5px !important;
 }
 ul {
-  list-style-position: inside; 
+  list-style-position: inside !important; 
 }
 
 span:lang(ja) {
