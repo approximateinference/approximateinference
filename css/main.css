@@ -6,7 +6,7 @@
   padding: 4px 0px 5px !important;
 }
 ul {
-  list-style-position: inside !important; 
+  list-style-position: inside !important;
 }
 
 span:lang(ja) {
@@ -35,3 +35,7 @@ span:lang(cn) {
   font-weight: bold;
 }
 
+div.nav-subsection {
+  padding-top: 1em;
+  font-weight: 500;
+}
