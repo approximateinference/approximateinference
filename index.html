@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Javier Antoran">
+  <meta name="author" content="James Allingham">
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <title>Approximate Inference</title>
 
   <!-- CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 
@@ -20,6 +24,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
+
 <body>
   <div class="container">
 
@@ -31,39 +36,27 @@
       <div class="col-xs-12 col-sm-12 col-md-9">
         <div class="row" style="margin-bottom:-10px;">
           <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
-            <!--
-            <a href="">
-              <img src="/img/nips.svg" style="margin:0px -90px
-              0 0; height:140px; width:250px;">
-            </a>
-            -->
           </div>
           <div class="hidden-xs">
-            <!--
-            <a href="http://nips.cc">
-              <img src="/img/nips.svg" class="pull-right" style="margin:0px -90px
-              0 0; height:140px; width:250px;">
-            </a>
-            -->
           </div>
-          <h2>5th Symposium on<br/>Advances in Approximate Bayesian Inference</h2>
+          <h2>6th Symposium on<br />Advances in Approximate Bayesian Inference</h2>
           <p class="lead">
-            Sunday July 23rd, 2023
-            at the Ala Moana Hotel, 410 Atkinson Drive in Honolulu, Hawaii  96814
-            United States
-            Co-located with <a style="text-decoration:none" href="https://icml.cc/Conferences/2023">ICML</a> 
+            Monday, 22 July 2024<br />
+            Co-located with <a style="text-decoration:none" href="https://icml.cc/Conferences/2024">ICML</a>
           </p>
           <p>
-            <a href="https://twitter.com/aabi_org?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @aabi_org</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+            <a href="https://twitter.com/aabi_org?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+              data-show-count="false">Follow @aabi_org</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
           </p>
         </div>
       </div>
 
 
-       <div class="col-xs-12 col-sm-3 col-md-2" id="sidebar" role="navigation">
+      <div class="col-12 col-sm-12 order-sm-1 order-1" id="sidebar" role="navigation">
         <hr>
 
-        <ul class="nav flex-column">
+        <ul class="nav d-flex flex-column flex-sm-row main-nav">
           <li class="nav-item">
             <a class="nav-link active" href="./index.html">Home</a>
           </li>
@@ -73,7 +66,7 @@
           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="../index.html">Attend</a>
           </li> -->
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="./schedule/index.html">Schedule</a>
           </li>
           <li class="nav-item">
@@ -81,288 +74,170 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./program/index.html">Program Committee</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#sponsors">Sponsors</a>
-          </li>
-          
-        </ul>
-
-        <hr>
-        
-        <ul class="nav flex-column">
-          <li class="subsec-heading" style="padding: 5px 0px 10px;">Organizers</li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://yingzhenli.net/home/en/">Yingzhen Li</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://naesseth.github.io/">Christian A. Naesseth</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://fortuin.github.io/">Vincent Fortuin</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://karaletsos.com/">Theofanis Karaletsos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://ruqizhang.github.io/">Ruqi Zhang</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://javierantoran.github.io/about/">Javier Antorán</a>
           </li>
 
         </ul>
 
       </div>
 
-      <div class="col-xs-12 col-sm-9 col-md-9">
+      <div class="col-12 col-sm-3 order-sm-2 order-3">
+        <hr>
+
+        <ul class="nav flex-column">
+          <li class="subsec-heading" style="padding: 5px 0px 10px;">Organizers</li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://fortuin.github.io/">Vincent Fortuin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://javierantoran.github.io/about/">Javier Antorán</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://naesseth.github.io/">Christian A. Naesseth</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mgorinova.github.io/">Maria Gorinova</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://karaletsos.com/">Theofanis Karaletsos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://sites.google.com/view/sonali-parbhoo/home">Sonali Parbhoo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://jamesallingham.com/">James U. Allingham</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://agustinus.kristia.de/">Agustinus Kristiadi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://timrudner.com/">Tim G. J. Rudner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://siddharthswaroop.github.io/">Siddharth Swaroop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://ruqizhang.github.io/">Ruqi Zhang</a>
+          </li>
+          <div class="nav-subsection">Advisory Committee:</div>
+          <li class="nav-item">
+            <a class="nav-link" href="http://yingzhenli.net/home/en/">Yingzhen Li</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.stephanmandt.com/">Stephan Mandt</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="col-sm-9 col-12 order-sm-3 order-2">
         <hr>
         <div class="row">
           <p>
-          In recent years, there have been numerous advances in approximate inference methods,
-           which have enabled Bayesian inference in increasingly challenging scenarios involving
-            complex probabilistic models and large datasets. The 5th Symposium on Advances in Approximate
-             Bayesian Inference (AABI) will discuss this impact of Bayesian inference, connecting both variational
-              and Monte Carlo methods with other fields. We encourage submissions that relate Bayesian inference to
-               the fields of deep learning, reinforcement learning, causal inference, decision processes, Bayesian compression, 
-               or differential privacy, among others. We also encourage submissions that contribute to connecting
-                different approximate inference methods.
+            In recent years, there have been numerous advances in approximate inference methods, which have enabled
+            Bayesian inference in increasingly challenging scenarios involving complex probabilistic models and large
+            datasets. The 6th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of
+            Bayesian inference, connecting approximate inference methods with other fields. We encourage submissions
+            that relate Bayesian inference to the fields of deep learning, reinforcement learning, causal inference,
+            decision processes, Bayesian compression, or differential privacy, among others. We also encourage
+            submissions that contribute to connecting different approximate inference methods.
           </p>
-         
+
           <p>
-          For the call for papers and submission instructions, click <a href="./call/index.html">here</a>.
-          This year we will be running an additional fast-track call for authors to present papers accepted at
-           <a href="https://iclr.cc/">ICLR 2023</a>, <a href="https://icml.cc/Conferences/2023/Dates">ICML 2023</a>, <a href="https://aistats.org">AISTATS 2023</a>, 
-           and <a href="https://www.auai.org/uai2023/">UAI 2023</a>, as well as <a href="https://www.jmlr.org/">JMLR</a> and <a href="https://jmlr.org/tmlr/">TMLR</a> in 2023.
-        <b> Both the regular and fast-track submission portals are now closed!</b> 
-        </p>
+            This year we will run three submission tracks:
+          <ul>
+            <li>
+              a Proceedings Track, for <b>full research papers</b> of up to 12
+              pages,
+            </li>
+            <li>
+              a Workshop Track, for <b>extended abstracts</b>
+              of 3-6 pages, and
+            </li>
+            <li>
+              a Fast Track, for <b>recently published papers</b>.
+            </li>
+          </ul>
+          </p>
+          <p>
+            For the call for papers and submission instructions, click <a href="./call/index.html">here</a>.
+          </p>
 
-          <!-- <p>
-            Follow us on Twitter <a href="https://twitter.com/aabi_org?s=20">@aabi_org</a> for up-to-date news.
-          </p>  -->
 
-        </div>        
+        </div>
+
         <!-- <div class="row">
           <h3>Get Involved & nominate who you want to see at AABI!</h3>
           <hr>
           <p>
            Please fill out this <a href='https://forms.gle/gBZUQsmXgNFmLCm2A'>form</a> to nominate reviewers, speakers and panelists for AABI 2023 (self-nominations are allowed).
-            
+
           </p>
         </div> -->
 
         <div class="row">
-          <h3>Location and Registration (Now Open!)</h3> 
+          <h3>Location and Registration</h3>
           <hr>
           <p>
-            The symposium will take place in the Garden Lanai room of the <a href="https://www.alamoanahotelhonolulu.com/">Ala Moana Hotel</a> in downtown Honolulu  <a href="https://goo.gl/maps/fe6CzC3SPx37DnACA">(maps link)</a>.
-          <p>
-              Registration for in-person attendance is free but will be limited.
-              <a href="https://www.eventbrite.com/e/5th-symposium-on-advances-in-approximate-bayesian-inference-aabi-2023-tickets-651992466017">Click here to register!</a>
-              All accepted papers must have at least one author attending in person. We will request an email confirmation from all registered attendees in early July.
-              If you are unable to register, feel free to sign up on the <a href="https://forms.gle/Mz7UvesaCapVmNSF9">waiting list</a>.
-              We will contact you if more slots become available. Given the limited seats,
-              please cancel your registration if you know you will not be able to attend in-person.
-              <!-- This year AABI will be a virtual event consisting of two days online seminars
-           held in February 1-2, 2022. Each seminar consists of both invited and contributed talks,
-            will be broadcast via Zoom and in the meantime live-streamed
-             on <a href="https://www.youtube.com/channel/UC4BwJ3lMd2ATpVytOGckXqg">AABI 2022 Youtube
-               channel</a>. The <a href="https://uci.zoom.us/webinar/register/WN_QI9xdQU1Sp6gmDgl152LUw">Zoom 
-                registration</a> is free but will be limited. -->
+            Details coming soon!
           </p>
-         
+
         </div>
-       
 
-      <!-- <div class="row">
-        <h3>Confirmed speakers</h3>
-        <hr>
-        <ul>
-          <li><a href="https://users.aalto.fi/~ave/">Aki Vehtari</a>
-          (Aalto University)</li>
-          <li><a href="http://kunaltalwar.org/">Kunal Talwar</a>
-          (Apple)</li>
-          <li><a href="https://pierrealquier.github.io/index.html">Pierre Alquier</a> (RIKEN AIP)</li>
-          <li><a href="https://izmailovpavel.github.io/">Pavel Izmailov</a> 
-          (New York University)</li>
-          <li><a href="https://yixinwang.github.io/">Yixin Wang</a>
-          (University of Michigan)</li>
-          <li><a href="https://web.stanford.edu/~lmackey/">Lester Mackey</a> (Microsoft Research New England)</li>
-        </ul>
-      </div>         -->
-
-        
-        <!-- <div class="row">
-          <h3>Invited Speakers and Panelists</h3>
-          <hr>
-          <p>
-          <p class="javi-class">Invited speakers</p>
-          <ul>
-            <li><a href="https://users.aalto.fi/~ave/">Aki Vehtari</a>
-            (Aalto University)</li>
-            <li><a href="http://kunaltalwar.org/">Kunal Talwar</a>
-            (Apple)</li>
-            <li><a href="https://pierrealquier.github.io/index.html">Pierre Alquier</a> (RIKEN AIP)</li>
-            <li><a href="https://izmailovpavel.github.io/">Pavel Izmailov</a> 
-            (New York University)</li>
-            <li><a href="https://yixinwang.github.io/">Yixin Wang</a>
-            (University of Michigan)</li>
-            <li><a href="https://web.stanford.edu/~lmackey/">Lester Mackey</a> (Microsoft Research New England)</li>
-          </ul>
-          </p>
-          <p>
-       
-        
-          Panel
-          <ul>
-            <li>Moderator: <a href="http://www.stephanmandt.com/">Stephan Mandt</a>
-            (University of California, Irvine)</li>
-            <li><a href="https://betanalpha.github.io/">Michael Betancourt</a>
-            </li>
-            <li><a href="https://jwvdm.github.io/">Jan-Willem van de Meent</a>
-            (University of Amsterdam)</li>
-            <li><a href="https://www.cs.toronto.edu/~cmaddis/">Chris J. Maddison</a>
-            (University of Toronto)</li>
-            <li><a href="https://karenullrich.info/">Karen Ullrich</a>
-            (Facebook AI Research)</li>
-            <li><a href="https://people.cs.umass.edu/~domke/">Justin Domke</a>
-            (University of Massachusetts, Amherst)</li>
-          </ul>
-          </p>
-        </div>
-        -->
-
-        <!-- <div class="row">
-          <h3>Organizers</h3>
-          <hr>
-          <p>
-          <ul>
-            <li><a href="https://fortuin.github.io/">Vincent Fortuin</a> (ETH Zurich)</li>
-            <li><a href="https://karaletsos.com/">Theofanis Karaletsos</a> (Meta/Facebook)</li>
-            <li><a href="http://yingzhenli.net/home/en/">Yingzhen Li</a> (Imperial College London)</li>
-            <li><a href="http://www.stephanmandt.com/">Stephan Mandt</a> (University of California, Irvine)</li>
-            <li><a href="https://ruqizhang.github.io/">Ruqi Zhang</a> (The University of Texas at Austin/Purdue University)</li>
-          </ul>
-          </p>
-        </div> -->
-
-        <!--
-        <div class="row">
-          <h3>Local Chair</h3>
-          <hr>
-          <p>
-          <ul>
-            <li><a href="https://jiaweimtr.github.io/">Eric Jiawei He</a>
-            (Borealis AI)</li>
-          </ul>
-          </p>
-        </div>
-        -->
 
         <div class="row">
-          <h3>Advisory Committee</h3>
-          <hr>
-          <p>
-          <ul>
-            <li><a href="http://www.stephanmandt.com/"><font size="+1">Stephan Mandt</font></a></li>
-            <!-- <li><a href="http://www.cs.columbia.edu/~blei">David Blei</a>
-            (Columbia University)</li>
-            <li><a href="http://www.stephanmandt.com">Stephan Mandt</a>
-            (University of California, Irvine)</li>
-            <li><a href="http://jamesmc.com">James McInerney</a>
-            (Netflix)</li>
-            <li><a href="http://dustintran.com/">Dustin Tran</a>
-            (Google Brain and Columbia University)</li> -->
-          </ul>
-          </p>
-        </div>
-        
-        <div class="row">
-          <!-- <h3>Advisory Committee</h3> -->
           <hr>
           <p>
             This symposium is a continuation of past years events:
           <ul>
-            <li><a
-            href="/2022">4nd Symposium on Advances in Approximate Bayesian Inference (2022)
-            </a></li>
-            <li><a
-            href="/2021">3nd Symposium on Advances in Approximate Bayesian Inference (2021)
-            </a></li>
-            <li><a
-            href="/2019">2nd Symposium on Advances in Approximate Bayesian Inference (2019)
-            </a></li>
-            <li><a
-            href="/2018">1st Symposium on Advances in Approximate Bayesian Inference (2018)
-            </a></li>
-            <li><a
-            href="/2017">NIPS 2017
-            Workshop: Advances in Approximate Bayesian Inference</a></li>
-            <li><a
-            href="/2016">NIPS 2016
-            Workshop: Advances in Approximate Bayesian Inference</a></li>
-            <li><a
-            href="/2015">NIPS 2015
-            Workshop: Advances in Approximate Bayesian Inference</a></li>
-            <li><a
-            href="https://sites.google.com/site/variationalworkshop/">NIPS 2014
-            Workshop: Advances in Variational Inference</a></li>
+            <li><a href="/2023">5th Symposium on Advances in Approximate Bayesian Inference (2023)
+              </a></li>
+            <li><a href="/2022">4th Symposium on Advances in Approximate Bayesian Inference (2022)
+              </a></li>
+            <li><a href="/2021">3rd Symposium on Advances in Approximate Bayesian Inference (2021)
+              </a></li>
+            <li><a href="/2019">2nd Symposium on Advances in Approximate Bayesian Inference (2019)
+              </a></li>
+            <li><a href="/2018">1st Symposium on Advances in Approximate Bayesian Inference (2018)
+              </a></li>
+            <li><a href="/2017">NIPS 2017
+                Workshop: Advances in Approximate Bayesian Inference</a></li>
+            <li><a href="/2016">NIPS 2016
+                Workshop: Advances in Approximate Bayesian Inference</a></li>
+            <li><a href="/2015">NIPS 2015
+                Workshop: Advances in Approximate Bayesian Inference</a></li>
+            <li><a href="https://sites.google.com/site/variationalworkshop/">NIPS 2014
+                Workshop: Advances in Variational Inference</a></li>
           </ul>
           </p>
         </div>
 
+
+
         <div class="row">
           <h3><a id="sponsors">Sponsors</a></h3>
-          <hr>  
-          <div class="p-3">
-            
-            
-            <a href="https://deepmind.com">
-              <img src="./img/deepmind.jpg" style="padding:10px 0px 10px; height:110px;" class="mx-1"></img>
-            </a>
-          
-
-            <a href="https://www.ellis.eng.cam.ac.uk">
-              <img src="./img/ellis_cambridge_logo.png" style="padding:10px 0px 10px; height:120px;" class="mx-1"></img>
-            </a>
-
-            <a href="https://ivi.fnwi.uva.nl/ellis/">
-              <img src="./img/Logo_ELLIS_Unit_Amsterdam.png" style="padding:10px 0px 10px; height:145px;" class="mx-1"></img>
-            </a> 
-
-            <a href="https://insitro.com/">
-              <img src="./img/insitro_logo.jpg" style="padding:10px 0px 10px; height:165px;" class="mx-1"></img>
-            </a> 
-
-            <a href="https://ai.google/">
-              <img src="./img/google.jpg" style="padding:10px 0px 10px; height:135px;" class="mx-1"></img>
-            </a> 
-
-
-          </div>  
-
-        <div class="row">
           <hr>
-          <p>
-            Questions? Contact us at
-            <a href="mailto:symposium.approximateinference@gmail.com">symposium.approximateinference@gmail.com</a>.
-          </p>
-          
-        </div>
-          
-          <!-- <div class="p-3">
-            <a href="https://www.uber.com">
-              <img src="./img/uber.png" style="height:140px;" class="mx-3"></img>
-            </a>
-            <a href="https://www.prowler.io/">
-              <img src="./img/prowler.jpg" style="height:72px;" class="mx-3"></img>
-            </a>
-            <a href="https://www.amazon.com">
-              <img src="./img/amazon.png" style="height:110px;" class="mx-3"> </img>
-            </a>
-          </div> -->
-          
-          
+          <div class="p-3">
+
+            Coming soon!
+
+          </div>
+
+
+
+          <div class="row">
+            <hr>
+            <p>
+              Questions? Contact us at
+              <a href="mailto:symposium.approximateinference@gmail.com">symposium.approximateinference@gmail.com</a>.
+            </p>
+
+          </div>
+
+
 
         </div>
 
@@ -373,18 +248,22 @@
     <hr>
 
     <footer>
-    &nbsp;
+      &nbsp;
     </footer>
 
   </div>
 
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-  <script type="text/javascript"
-     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
   <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>
