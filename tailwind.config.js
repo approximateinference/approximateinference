@@ -82,22 +82,6 @@ const config = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            // Remove backticks from inline code
-            "code::before": {
-              content: '""',
-            },
-            "code::after": {
-              content: '""',
-            },
-            code: {
-              backgroundColor: "hsl(var(--accent))",
-              color: "hsl(var(--accent-foreground))",
-              borderRadius: theme("borderRadius.DEFAULT"),
-              paddingLeft: theme("spacing[1]"),
-              paddingRight: theme("spacing[1]"),
-              paddingTop: theme("spacing[0.5]"),
-              paddingBottom: theme("spacing[0.5]"),
-            },
             a: {
               color: theme("colors.blue.600"),
               fontWeight: "400",
@@ -113,15 +97,6 @@ const config = {
         },
         dark: {
           css: {
-            code: {
-              backgroundColor: "hsl(var(--accent))",
-              color: "hsl(var(--accent-foreground))",
-              borderRadius: theme("borderRadius.DEFAULT"),
-              paddingLeft: theme("spacing[1]"),
-              paddingRight: theme("spacing[1]"),
-              paddingTop: theme("spacing[0.5]"),
-              paddingBottom: theme("spacing[0.5]"),
-            },
             a: {
               color: theme("colors.blue.300"),
             },
