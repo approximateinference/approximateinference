@@ -1,0 +1,22 @@
+[
+  {
+    "type": "proceedings",
+    "title": "Implicitly Bayesian Prediction Rules in Deep Learning",
+    "authors": ["Bruno Kacper Mlodozeniec", "Richard E. Turner", "David Krueger"],
+    "talk": true,
+    "link": "https://openreview.net/forum?id=WBPVWdzxBQ"
+  },
+  {
+    "type": "workshop",
+    "title": "Estimating Expectations without Sampling: Neural Stein Estimation",
+    "authors": [
+      "Mohsin Hasan",
+      "Dinghuai Zhang",
+      "Cheikh Ahmed",
+      "Awa Khouna",
+      "Yoshua Bengio"
+    ],
+    "talk": false,
+    "link": "https://openreview.net/forum?id=by9cKVIs0F"
+  }
+]

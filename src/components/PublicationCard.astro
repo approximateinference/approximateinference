@@ -1,0 +1,57 @@
+---
+import PublicationLabel from "./PublicationLabel.astro";
+
+const { pub } = Astro.props;
+---
+
+<div class='relative rounded-2xl border border-border bg-primary-foreground px-5 py-3'>
+  <div class='flex flex-col gap-y-1.5'>
+    <div class='flex flex-col gap-y-0.5'>
+      <div class='text-base font-semibold'>{pub.title}</div>
+      <div
+        class='text-muted-foreground'
+        set:html={pub.author
+          .map((name: string) =>
+            name.includes("Kristiadi")
+              ? '<span class="text-green-600">' + name + "</span>"
+              : name,
+          )
+          .join(", ")}
+      />
+      <div>
+        <span>{pub.venue} {pub.year}</span>
+        <span>
+          {
+            pub.note && (
+              <PublicationLabel
+                title={pub.note}
+                class='bg-red-400 text-slate-50 hover:bg-red-400 hover:text-slate-50'
+              />
+            )
+          }
+        </span>
+        <span class='float-right inline-block'>
+          {
+            pub.paper && (
+              <PublicationLabel
+                title='Paper'
+                href={pub.paper}
+                class='text-blue-600 dark:text-blue-400'
+              />
+            )
+          }
+          {
+            pub.code && (
+              <PublicationLabel
+                title='Github'
+                href={pub.code}
+                class='text-blue-600 dark:text-blue-400'
+              />
+            )
+          }
+        </span>
+      </div>
+    </div>
+    <slot />
+  </div>
+</div>

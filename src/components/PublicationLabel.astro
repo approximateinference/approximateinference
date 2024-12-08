@@ -1,0 +1,6 @@
+---
+import Button from "./Button.astro";
+const { title, href, class: className } = Astro.props;
+---
+
+<Button as='a' title={title} href={href} class={className} style='button' />

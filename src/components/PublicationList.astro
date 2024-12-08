@@ -1,0 +1,16 @@
+---
+import type { Publication } from "@/utils";
+import PublicationCard from "./PublicationCard.astro";
+
+const { publications } = Astro.props;
+---
+
+<ul class='space-y-2'>
+  {
+    publications.map((pub: Publication) => (
+      <li>
+        <PublicationCard pub={pub} />
+      </li>
+    ))
+  }
+</ul>
