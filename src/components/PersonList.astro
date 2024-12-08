@@ -1,0 +1,26 @@
+---
+import type { Person } from "@/utils";
+
+const { people, bgcolor } = Astro.props;
+---
+
+<div class='relative'>
+  <div class=`${bgcolor} absolute inset-0 z-0 h-full w-full`></div>
+
+  <div class='relative z-10 flex flex-col gap-y-3 pl-5 pr-5'>
+    <div class='flex flex-col gap-y-2 md:flex-row md:gap-x-5 md:gap-y-0'>
+      <div class='flex flex-row flex-wrap justify-evenly gap-x-8 gap-y-2'>
+        {
+          people.map((person: Person) => (
+            <div>
+              <img src={person.pic} class='mb-2 h-36 w-36 rounded-full object-cover' />
+              <p class='mt-1 text-center text-sm text-[hsl(var(--foreground))]'>
+                {person.name} <br /> {person.affiliation}
+              </p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</div>

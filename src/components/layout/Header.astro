@@ -106,7 +106,7 @@
             transform='matrix(1.3333333,0,0,-1.3333333,0.26533333,195.28267)'></path>
         </g>
       </svg>
-      <span class='self-center'>AABI 2025</span>
+      <span class='self-center font-semibold'>AABI 2025</span>
     </a>
 
     <div
@@ -133,12 +133,12 @@
         >Accepted Papers
       </a>
 
-      <a
-        href='/sponsors'
-        class='flex-none text-[1.05rem] font-medium'
-        aria-label='Nav Menu Item'
-        >Sponsors
-      </a>
+      <!-- <a -->
+      <!--   href='/sponsors' -->
+      <!--   class='flex-none text-[1.05rem] font-medium' -->
+      <!--   aria-label='Nav Menu Item' -->
+      <!--   >Sponsors -->
+      <!-- </a> -->
 
       <button
         id='toggleDarkMode'
@@ -194,7 +194,7 @@
   const links = document.querySelectorAll("nav a");
   links.forEach((link) => {
     if (link.getAttribute("href") === currentUrl && currentUrl !== "/") {
-      link.classList.add("font-semibold"); // Add active styles to the current link
+      link.classList.add("font-semibold", "text-blue-500", "dark:text-blue-400"); // Add active styles to the current link
     }
   });
 </script>
