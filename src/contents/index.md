@@ -3,8 +3,6 @@ layout: ../layouts/ContentLayout.astro
 title: "Home"
 ---
 
-# 7th Symposium on Advances in Approximate Bayesian Inference
-
 In recent years, there have been numerous advances in approximate inference methods, which have enabled Bayesian inference in increasingly challenging scenarios involving complex probabilistic models and large datasets.
 The 6th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of Bayesian inference, connecting approximate inference methods with other fields.
 We encourage submissions that relate Bayesian inference to the fields of deep learning, reinforcement learning, causal inference, decision processes, Bayesian compression, or differential privacy, among others.

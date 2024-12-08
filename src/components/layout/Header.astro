@@ -118,17 +118,26 @@
         aria-label='Nav Menu Item'
         >Call for Papers
       </a>
+
       <a
         href='/schedule'
         class='flex-none text-[1.05rem] font-medium'
         aria-label='Nav Menu Item'
         >Schedule
       </a>
+
       <a
         href='/accepted'
         class='flex-none text-[1.05rem] font-medium'
         aria-label='Nav Menu Item'
         >Accepted Papers
+      </a>
+
+      <a
+        href='/sponsors'
+        class='flex-none text-[1.05rem] font-medium'
+        aria-label='Nav Menu Item'
+        >Sponsors
       </a>
 
       <button
@@ -174,5 +183,18 @@
       detail: { theme: getCurrentTheme() === "light" ? "dark" : "light" },
     });
     document.dispatchEvent(toggleDarkModeEvent);
+  });
+</script>
+
+<script>
+  // JavaScript to add 'active' class to the current page's link
+  const currentUrl = window.location.pathname;
+
+  // Get all links
+  const links = document.querySelectorAll("nav a");
+  links.forEach((link) => {
+    if (link.getAttribute("href") === currentUrl && currentUrl !== "/") {
+      link.classList.add("font-semibold"); // Add active styles to the current link
+    }
   });
 </script>
