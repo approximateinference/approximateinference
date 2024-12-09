@@ -25,7 +25,8 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 <title>{siteTitle}</title>
 
 {/* Icons / Favicon */}
-<link href='/favicon/favicon.ico' rel='icon' sizes='any' />
+<link href='/favicon/favicon-light.png' rel='icon' sizes='any' media='(prefers-color-scheme: light)' />
+<link href='/favicon/favicon-dark.png' rel='icon' sizes='any' media='(prefers-color-scheme: dark)'  />
 
 {/* Canonical URL */}
 <link rel='canonical' href={canonicalURL} />
