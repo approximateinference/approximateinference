@@ -2,26 +2,31 @@
   {
     "name": "Invited Speaker 1",
     "affiliation": "Affiliation 1",
-    "pic": "/images/people/agustinus.jpeg"
+    "pic": "/images/people/agustinus.jpeg",
+    "link": "https://agustinus.kristia.de"
   },
   {
     "name": "Invited Speaker 2",
     "affiliation": "Affiliation 2",
-    "pic": "/images/people/agustinus.jpeg"
+    "pic": "/images/people/agustinus.jpeg",
+    "link": "https://agustinus.kristia.de"
   },
   {
     "name": "Invited Speaker 3",
     "affiliation": "Affiliation 3",
-    "pic": "/images/people/agustinus.jpeg"
+    "pic": "/images/people/agustinus.jpeg",
+    "link": "https://agustinus.kristia.de"
   },
   {
     "name": "Invited Speaker 4",
     "affiliation": "Affiliation 4",
-    "pic": "/images/people/agustinus.jpeg"
+    "pic": "/images/people/agustinus.jpeg",
+    "link": "https://agustinus.kristia.de"
   },
   {
     "name": "Invited Speaker 5",
     "affiliation": "Affiliation 5",
-    "pic": "/images/people/agustinus.jpeg"
+    "pic": "/images/people/agustinus.jpeg",
+    "link": "https://agustinus.kristia.de"
   }
 ]

@@ -52,18 +52,29 @@ Your content here! It's just a standard markdown you know and love!
 
 4. Then, you can link the page into the navbar in the header. This can be done by modifying `src/components/layout/Header.astro`. Simply copy-paste the existing nav link there and modify as necessary. Otherwise, you can simply link the new page as usual in other markdown files.
 
-### Adding images
+### Updating invited-speakers/organizers list
+
+1. Put profile pictures/headshots into `public/images/people` directory.
+2. Update `src/assets/invited_speakers.json` and `src/assets/organizers.json` by following this format: (Notice that `pic` should point to the path of the profile picture you have put into `public/images/people`.)
+
+```json
+[
+  {
+    "name": "...",
+    "affiliation": "...",
+    "pic": "/images/people/...",
+    "link": "https://..."
+  },
+  ...
+]
+```
+
+3. **How does it work?** Go to `src/contents/index.mdx`. (Note that `.mdx` is like `.md` but can use Astro components.) Notice that near the beginning of the file, we load the JSON file content, load the `PeopleList` component from `src/components/PeopleList.astro`, and then pass the JSON object into `PeopleList` in the content.
+
+### Updating schedule
 
 TODO!
 
 ### Displaying list of accepted papers
-
-TODO!
-
-### Updating invited-speakers/organizers list
-
-TODO!
-
-### Updating schedule
 
 TODO!

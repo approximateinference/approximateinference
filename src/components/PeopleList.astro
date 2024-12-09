@@ -13,7 +13,12 @@ const { people, bgcolor } = Astro.props;
         {
           people.map((person: Person) => (
             <div>
-              <img src={person.pic} class='mb-2 h-36 w-36 rounded-full object-cover' />
+              <a href={person.link}>
+                <img
+                  src={person.pic}
+                  class='mb-2 ml-10 mr-10 h-36 w-36 rounded-full object-cover'
+                />
+              </a>
               <p class='mt-1 text-center text-sm text-[hsl(var(--foreground))]'>
                 {person.name} <br /> {person.affiliation}
               </p>

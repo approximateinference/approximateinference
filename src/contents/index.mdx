@@ -3,7 +3,7 @@ layout: ../layouts/ContentLayout.astro
 title: "Home"
 ---
 
-import PersonList from "@/components/PersonList.astro";
+import PeopleList from "@/components/PeopleList.astro";
 import invited_speakers from "../assets/invited_speakers.json";
 import organizers from "../assets/organizers.json";
 
@@ -33,7 +33,7 @@ Given the limited seats, please cancel your registration if you know you will no
 
 ## Invited Speakers
 
-<PersonList people={invited_speakers} />
+<PeopleList people={invited_speakers} />
 
 ## Sponsors
 
@@ -47,7 +47,7 @@ Given the limited seats, please cancel your registration if you know you will no
 
 ## Organizers
 
-<PersonList people={organizers} />
+<PeopleList people={organizers} />
 
 ## Past Meetings
 
