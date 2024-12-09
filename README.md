@@ -7,6 +7,15 @@ The contents of this website are entirely written in Markdown!
 
 For how-tos FAQs specific to the AABI website, please see below.
 
+## Table of Contents
+
+- [Setup](#setup)
+- [How-Tos](#how-tos)
+  - [Creating/updating contents](#creatingupdating-contents)
+  - [Updating invited speakers/organizers list](#updating-invited-speakersorganizers-list)
+  - [Updating schedule](#updating-schedule)
+  - [Displaying accepted papers list](#displaying-list-of-accepted-papers)
+
 ## Setup
 
 Install Bun (it's a faster, modern NodeJS alternative --- a Javascript runtime): <https://bun.sh/docs/installation>.
@@ -64,8 +73,7 @@ Your content here! It's just a standard markdown you know and love!
     "affiliation": "...",
     "pic": "/images/people/...",
     "link": "https://..."
-  },
-  ...
+  }
 ]
 ```
 
@@ -73,7 +81,8 @@ Your content here! It's just a standard markdown you know and love!
 
 ### Updating schedule
 
-TODO!
+1. Go to `src/contents/schedule.md`.
+2. Simply write standard markdown tables to create the schedule. E.g. use this website: <https://www.tablesgenerator.com/markdown_tables>.
 
 ### Displaying list of accepted papers
 
