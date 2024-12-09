@@ -22,6 +22,8 @@ To serve the website locally for development, run:
 bun astro dev
 ```
 
+And finally, go to `https://localhost:4321`
+
 ## How-Tos
 
 ### Creating/updating contents

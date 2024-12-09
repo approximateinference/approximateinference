@@ -2,7 +2,6 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import { remarkReadingTime } from "./src/utils/remarkReadingTime.ts";
 import remarkUnwrapImages from "remark-unwrap-images";
 import rehypeExternalLinks from "rehype-external-links";
 import remarkSmartypants from "remark-smartypants";
@@ -15,11 +14,8 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://agustinus.kristia.de",
+  site: "https://approximateinference.org",
   prefetch: true,
-  redirects: {
-    "/about": "/",
-  },
   integrations: [
     expressiveCode(expressiveCodeOptions),
     tailwind({
@@ -33,7 +29,6 @@ export default defineConfig({
     remarkPlugins: [
       [remarkSmartypants, { dashes: "oldschool" }],
       remarkUnwrapImages,
-      remarkReadingTime,
       remarkMath,
     ],
     rehypePlugins: [

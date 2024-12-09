@@ -2,18 +2,15 @@
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
 import "../styles/app.css";
-
 import type { SiteMeta } from "@/types";
 import { siteConfig } from "@/site-config";
 
 type Props = SiteMeta;
 
-const { articleDate, description, ogImage, title } = Astro.props;
-
+const { description, title } = Astro.props;
 const titleSeparator = "-";
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url).href;
 ---
 
 <meta charset='utf-8' />
@@ -25,8 +22,18 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 <title>{siteTitle}</title>
 
 {/* Icons / Favicon */}
-<link href='/favicon/favicon-light.png' rel='icon' sizes='any' media='(prefers-color-scheme: light)' />
-<link href='/favicon/favicon-dark.png' rel='icon' sizes='any' media='(prefers-color-scheme: dark)'  />
+<link
+  href='/favicon/favicon-light.png'
+  rel='icon'
+  sizes='any'
+  media='(prefers-color-scheme: light)'
+/>
+<link
+  href='/favicon/favicon-dark.png'
+  rel='icon'
+  sizes='any'
+  media='(prefers-color-scheme: dark)'
+/>
 
 {/* Canonical URL */}
 <link rel='canonical' href={canonicalURL} />
@@ -40,40 +47,18 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 <meta content='' name='theme-color' />
 
 {/* Open Graph / Facebook */}
-<meta content={articleDate ? "article" : "website"} property='og:type' />
 <meta content={title} property='og:title' />
 <meta content={description} property='og:description' />
 <meta content={canonicalURL} property='og:url' />
 <meta content={siteConfig.title} property='og:site_name' />
 <meta content={siteConfig.ogLocale} property='og:locale' />
-<meta content={socialImageURL} property='og:image' />
 <meta content='1200' property='og:image:width' />
 <meta content='630' property='og:image:height' />
-{
-  articleDate && (
-    <>
-      <meta content={siteConfig.author} property='article:author' />
-      <meta content={articleDate} property='article:published_time' />
-    </>
-  )
-}
 
 {/* Twitter */}
 <meta content='summary_large_image' property='twitter:card' />
 <meta content={canonicalURL} property='twitter:url' />
 <meta content={title} property='twitter:title' />
 <meta content={description} property='twitter:description' />
-<meta content={socialImageURL} property='twitter:image' />
-
-{/* Sitemap */}
-<link href='/sitemap-index.xml' rel='sitemap' />
-
-{/* RSS auto-discovery */}
-<link
-  href='/rss.xml'
-  rel='alternate'
-  title={siteConfig.title}
-  type='application/rss+xml'
-/>
 
 <meta content={Astro.generator} name='generator' />

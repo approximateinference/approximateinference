@@ -4,7 +4,7 @@ import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout meta={frontmatter.title}>
+<BaseLayout title={frontmatter.title}>
   <div class='w-full'>
     <div class='gap-x-10 lg:flex lg:items-start'>
       <article class='flex-grow break-words' data-pagefind-body>
