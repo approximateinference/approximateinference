@@ -31,7 +31,16 @@ To serve the website locally for development, run:
 bun astro dev
 ```
 
-And finally, go to `https://localhost:4321`
+And finally, go to `https://localhost:4321`.
+
+Before pushing to Github, check and test-build the site:
+
+```
+bun astro check
+bun astro build
+```
+
+The actual build & deploy to <https://approximateinference.org> are automatically handled by the Github action in `.github/workflows/deploy.yml`, as soon as the `master` branch is updated.
 
 ## How-Tos
 
