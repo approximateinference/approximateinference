@@ -3,6 +3,9 @@ layout: ../layouts/ContentLayout.astro
 title: "Accepted Papers"
 ---
 
+import PaperList from "@/components/PaperList.astro";
+import accepted_papers from "../assets/accepted_papers.json";
+
 # Accepted Papers
 
-TODO!
+<PaperList papers={accepted_papers} />

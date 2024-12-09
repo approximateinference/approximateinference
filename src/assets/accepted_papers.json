@@ -1,22 +1,146 @@
 [
   {
-    "type": "proceedings",
-    "title": "Implicitly Bayesian Prediction Rules in Deep Learning",
-    "authors": ["Bruno Kacper Mlodozeniec", "Richard E. Turner", "David Krueger"],
-    "talk": true,
-    "link": "https://openreview.net/forum?id=WBPVWdzxBQ"
+    "id": "paper123",
+    "title": "Posterior Uncertainty Quantification in Neural Networks using Data Augmentation",
+    "authors": [
+      {
+        "id": "author1",
+        "name": "Alice Johnson",
+        "email": "alice.johnson@email.com",
+        "affiliation": "University of XYZ"
+      },
+      {
+        "id": "author2",
+        "name": "Bob Smith",
+        "email": "bob.smith@email.com",
+        "affiliation": "Tech Corp"
+      }
+    ],
+    "venue": {
+      "id": "iclr2024",
+      "name": "International Conference on Learning Representations (ICLR)",
+      "year": 2024
+    },
+    "status": "Accepted",
+    "abstract": "This paper explores the interpretability of deep learning models...",
+    "keywords": ["deep learning", "interpretability", "AI models"],
+    "paper_url": "https://openreview.net/pdf?id=paper123",
+    "pdf_url": "https://openreview.net/pdf?id=paper123.pdf",
+    "reviewers": [
+      {
+        "id": "reviewer1",
+        "name": "Dr. John Doe",
+        "score": 8,
+        "comments": "This is a solid paper with great contributions."
+      },
+      {
+        "id": "reviewer2",
+        "name": "Dr. Jane Doe",
+        "score": 7,
+        "comments": "Interesting work, but the evaluation could be more thorough."
+      }
+    ],
+    "decision": "Accept",
+    "decision_date": "2024-12-01",
+    "revisions": [],
+    "acceptance_letter": {
+      "id": "acceptance1",
+      "content": "Dear authors, We are pleased to inform you that your paper has been accepted...",
+      "date": "2024-12-01"
+    },
+    "metadata": {
+      "created_at": "2024-11-01T12:34:56Z",
+      "updated_at": "2024-12-01T16:45:23Z",
+      "submission_type": "Regular Paper",
+      "conference_url": "https://openreview.net/group?id=iclr.cc/2024/Conference"
+    },
+    "citations": [
+      {
+        "paper_id": "paper567",
+        "title": "Recent Advances in AI",
+        "authors": ["Jane Smith", "Mark Lee"],
+        "year": 2023
+      }
+    ],
+    "comments": [
+      {
+        "id": "comment1",
+        "author": "Program Chair",
+        "comment": "The paper has been reviewed and accepted to ICLR 2024.",
+        "date": "2024-12-01T14:00:00Z"
+      }
+    ]
   },
   {
-    "type": "workshop",
-    "title": "Estimating Expectations without Sampling: Neural Stein Estimation",
+    "id": "paper456",
+    "title": "Fluctuation without dissipation: Microcanonical Langevin Monte Carlo",
     "authors": [
-      "Mohsin Hasan",
-      "Dinghuai Zhang",
-      "Cheikh Ahmed",
-      "Awa Khouna",
-      "Yoshua Bengio"
+      {
+        "id": "author1",
+        "name": "Alice Johnson",
+        "email": "alice.johnson@email.com",
+        "affiliation": "University of XYZ"
+      },
+      {
+        "id": "author2",
+        "name": "Bob Smith",
+        "email": "bob.smith@email.com",
+        "affiliation": "Tech Corp"
+      }
     ],
-    "talk": false,
-    "link": "https://openreview.net/forum?id=by9cKVIs0F"
+    "venue": {
+      "id": "iclr2024",
+      "name": "International Conference on Learning Representations (ICLR)",
+      "year": 2024
+    },
+    "status": "Accepted",
+    "abstract": "This paper explores the interpretability of deep learning models...",
+    "keywords": ["deep learning", "interpretability", "AI models"],
+    "paper_url": "https://openreview.net/pdf?id=paper123",
+    "pdf_url": "https://openreview.net/pdf?id=paper123.pdf",
+    "reviewers": [
+      {
+        "id": "reviewer1",
+        "name": "Dr. John Doe",
+        "score": 8,
+        "comments": "This is a solid paper with great contributions."
+      },
+      {
+        "id": "reviewer2",
+        "name": "Dr. Jane Doe",
+        "score": 7,
+        "comments": "Interesting work, but the evaluation could be more thorough."
+      }
+    ],
+    "decision": "Accept",
+    "decision_date": "2024-12-01",
+    "revisions": [],
+    "acceptance_letter": {
+      "id": "acceptance1",
+      "content": "Dear authors, We are pleased to inform you that your paper has been accepted...",
+      "date": "2024-12-01"
+    },
+    "metadata": {
+      "created_at": "2024-11-01T12:34:56Z",
+      "updated_at": "2024-12-01T16:45:23Z",
+      "submission_type": "Regular Paper",
+      "conference_url": "https://openreview.net/group?id=iclr.cc/2024/Conference"
+    },
+    "citations": [
+      {
+        "paper_id": "paper567",
+        "title": "Recent Advances in AI",
+        "authors": ["Jane Smith", "Mark Lee"],
+        "year": 2023
+      }
+    ],
+    "comments": [
+      {
+        "id": "comment1",
+        "author": "Program Chair",
+        "comment": "The paper has been reviewed and accepted to ICLR 2024.",
+        "date": "2024-12-01T14:00:00Z"
+      }
+    ]
   }
 ]

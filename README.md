@@ -86,7 +86,7 @@ Your content here! It's just a standard markdown you know and love!
 ]
 ```
 
-3. **How does it work?** Go to `src/contents/index.mdx`. (Note that `.mdx` is like `.md` but can use Astro components.) Notice that near the beginning of the file, we load the JSON file content, load the `PeopleList` component from `src/components/PeopleList.astro`, and then pass the JSON object into `PeopleList` in the content.
+3. **How does it work?** Go to `src/contents/index.mdx`. (Note that `.mdx` is like `.md` but can use Astro components.) Notice that near the beginning of the file, we load the JSON file content, load the `PeopleList` component from `src/components/PeopleList.astro`, and then pass the JSON object into `PeopleList` in the content. Note that the object schema is defined in `src/utils/person.ts`.
 
 ### Updating schedule
 
@@ -95,4 +95,7 @@ Your content here! It's just a standard markdown you know and love!
 
 ### Displaying list of accepted papers
 
-TODO!
+1. Obtain the accepted papers list from Openreview, using their API.
+2. Store the returned JSON file in `src/assets/accepted_papers.json`.
+3. The page `https://approximateinference.org/accepted` will automatically be populated during deployment.
+4. **How does it work?** Go to `src/contents/accepted.mdx` --- the JSON file is loaded there and passed to the `PaperList` component. Note that the object schemas are defined in `src/utils/paper.ts`.
