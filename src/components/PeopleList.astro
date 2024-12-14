@@ -1,30 +1,37 @@
 ---
 import type { Person } from "@/utils";
 
-const { people, bgcolor } = Astro.props;
+const { people, bgcolor, title } = Astro.props;
 ---
 
-<div class='relative'>
-  <div class=`${bgcolor} absolute inset-0 z-0 h-full w-full`></div>
+<div class='relative w-[100vw] md:w-[98.5vw]'>
+  <div class=`${bgcolor} pb-16 pt-8`>
+    <div class='relative z-10 mx-auto flex max-w-[55rem] flex-col gap-y-3 px-5'>
+      <div class='mb-16 text-3xl font-bold'>
+        <h1>{title}</h1>
+      </div>
 
-  <div class='relative z-10 flex flex-col gap-y-3 pl-5 pr-5'>
-    <div class='flex flex-col gap-y-2 md:flex-row md:gap-x-5 md:gap-y-0'>
-      <div class='flex flex-row flex-wrap justify-evenly gap-x-8 gap-y-2'>
-        {
-          people.map((person: Person) => (
-            <div>
-              <a href={person.link}>
-                <img
-                  src={person.pic}
-                  class='mb-2 ml-5 mr-5 h-24 w-24 rounded-full object-cover md:ml-10 md:mr-10 md:h-36 md:w-36'
-                />
-              </a>
-              <p class='mt-1 text-center text-sm text-[hsl(var(--foreground))]'>
-                {person.name} <br /> {person.affiliation}
-              </p>
-            </div>
-          ))
-        }
+      <div class='flex flex-col gap-y-2 md:flex-row md:gap-x-5 md:gap-y-0'>
+        <div
+          class='flex flex-row flex-wrap justify-evenly gap-x-8 gap-y-10 md:gap-y-16'
+        >
+          {
+            people.map((person: Person) => (
+              <div>
+                <a href={person.link}>
+                  <img
+                    src={person.pic}
+                    class='mb-2 ml-5 mr-5 h-24 w-24 rounded-full object-cover md:ml-10 md:mr-10 md:h-36 md:w-36'
+                  />
+
+                  <p class='text-sm] mt-1 text-center'>
+                    {person.name} <br /> {person.affiliation}
+                  </p>
+                </a>
+              </div>
+            ))
+          }
+        </div>
       </div>
     </div>
   </div>

@@ -1,5 +1,27 @@
 ---
-import { Content } from "../contents/index.mdx";
+import { Content } from "../contents/index.md";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import ContentLayout from "@/layouts/ContentLayout.astro";
+import PeopleList from "@/components/PeopleList.astro";
+
+import invited_speakers from "../assets/invited_speakers.json";
+import organizers from "../assets/organizers.json";
 ---
 
-<Content />
+<BaseLayout title='Home'>
+  <ContentLayout>
+    <Content />
+  </ContentLayout>
+
+  <div class='mt-10'>
+    <PeopleList
+      title='Invited Speakers'
+      people={invited_speakers}
+      bgcolor='bg-slate-700 text-white'
+    />
+  </div>
+
+  <div class='mt-0'>
+    <PeopleList title='Organizers' people={organizers} />
+  </div>
+</BaseLayout>

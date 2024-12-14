@@ -1,11 +1,7 @@
 ---
-layout: ../layouts/ContentLayout.astro
+# layout: ../layouts/ContentLayout.astro
 title: "Home"
 ---
-
-import PeopleList from "@/components/PeopleList.astro";
-import invited_speakers from "../assets/invited_speakers.json";
-import organizers from "../assets/organizers.json";
 
 In recent years, there have been numerous advances in approximate inference methods, which have enabled Bayesian inference in increasingly challenging scenarios involving complex probabilistic models and large datasets.
 The 6th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of Bayesian inference, connecting approximate inference methods with other fields.
@@ -30,34 +26,3 @@ All accepted papers must have at least one author attending in person.
 If you are unable to register, feel free to sign up on the waiting list.
 We will contact you if more slots become available.
 Given the limited seats, please cancel your registration if you know you will not be able to attend in-person.
-
-## Invited Speakers
-
-<PeopleList people={invited_speakers} />
-
-## Sponsors
-
-<div class='w-full sm:flex sm:space-x-0 sm:space-y-12 md:flex-row md:space-x-28 md:space-y-0'>
-  <img src='/images/deepmind.png' class='mx-auto w-1/2' />
-  <img
-    src='/images/basis-logo.svg'
-    class='mx-auto w-1/3 dark:contrast-0 dark:grayscale dark:invert'
-  />
-</div>
-
-## Organizers
-
-<PeopleList people={organizers} />
-
-## Past Meetings
-
-- [AABI 2024](/archives/2024/index.html)
-- [AABI 2023](/archives/2023/index.html)
-- [AABI 2022](/archives/2022/index.html)
-- [AABI 2021](/archives/2021/index.html)
-- [AABI 2019](/archives/2019/index.html)
-- [AABI 2018](/archives/2018/index.html)
-- [NIPS 2017 Workshop: AABI](/archives/2017/index.html)
-- [NIPS 2016 Workshop: AABI](/archives/2016/index.html)
-- [NIPS 2015 Workshop: AABI](/archives/2015/index.html)
-- NIPS 2017 Workshop: Advances in Variational Inference

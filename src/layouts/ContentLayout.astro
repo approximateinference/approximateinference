@@ -1,19 +1,15 @@
 ---
-import BaseLayout from "./BaseLayout.astro";
 
-const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout title={frontmatter.title}>
-  <div class='w-full'>
-    <div class='gap-x-10 lg:flex lg:items-start'>
-      <article class='flex-grow break-words' data-pagefind-body>
-        <div
-          class='prose prose-base prose-neutral max-w-full font-sans text-base leading-6 dark:prose-invert dark:prose-dark prose-headings:font-semibold prose-headings:text-foreground prose-headings:before:absolute prose-headings:before:-ms-4 prose-th:before:content-none prose-inline-code:font-mono prose-inline-code:text-sm prose-inline-code:font-normal'
-        >
-          <slot />
-        </div>
-      </article>
-    </div>
+<div class='mx-auto max-w-[55rem] px-5'>
+  <div class='gap-x-10 lg:flex lg:items-start'>
+    <article class='flex-grow break-words' data-pagefind-body>
+      <div
+        class='prose prose-base prose-neutral max-w-full font-sans text-base leading-6 dark:prose-invert dark:prose-dark prose-headings:font-semibold prose-headings:text-foreground prose-headings:before:absolute prose-headings:before:-ms-4 prose-th:before:content-none prose-inline-code:font-mono prose-inline-code:text-sm prose-inline-code:font-normal'
+      >
+        <slot />
+      </div>
+    </article>
   </div>
-</BaseLayout>
+</div>
