@@ -82,7 +82,7 @@ Simply update [`src/contents/call.md`](https://github.com/approximateinference/a
 ### Creating/updating contents in general
 
 > [!TIP]
-> Check `[src/pages/index.astro](https://github.com/approximateinference/approximateinference/blob/2025/src/pages/index.astro)` for example.
+> Check [`src/pages/index.astro`](https://github.com/approximateinference/approximateinference/blob/2025/src/pages/index.astro) for example.
 
 1. Create a new page in `src/pages`, e.g. `new_page.astro`. You can copy-paste the exsisting page. Note that, the filename is important since it reflects the site endpoint: `new_page.astro` translates into `https://approximateinference.org/new_page`.
 2. Put the following into `new_page.astro`:
