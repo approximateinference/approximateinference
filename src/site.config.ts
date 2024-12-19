@@ -1,4 +1,6 @@
 import type { SiteConfig } from "@/types";
+import "@fontsource/roboto";
+import "@fontsource/roboto-condensed";
 
 export const siteConfig: SiteConfig = {
   // Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)

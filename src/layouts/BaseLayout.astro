@@ -19,7 +19,7 @@ const { title } = Astro.props;
     <div class='flex min-h-screen w-screen flex-col items-center font-sans'>
       <Header />
 
-      <div class='relative w-[100vw] bg-sky-900 pb-10 md:w-[98.5vw]'>
+      <div class='relative w-full bg-navyblue-700 pb-10'>
         <div
           class="absolute inset-0 bg-[url('/images/bdl.svg')] bg-cover bg-bottom opacity-25 blur-[4px] invert sepia dark:opacity-30 dark:invert"
         >
@@ -36,7 +36,7 @@ const { title } = Astro.props;
         </div>
       </div>
 
-      <main class='relative pb-0 pt-10 leading-relaxed'>
+      <main class='relative w-full pb-0 pt-10 leading-relaxed'>
         <slot />
       </main>
       <Footer />

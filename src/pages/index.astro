@@ -17,11 +17,15 @@ import organizers from "../assets/organizers.json";
     <PeopleList
       title='Invited Speakers'
       people={invited_speakers}
-      bgcolor='bg-sky-700 text-white'
+      bgcolor='bg-navyblue-800 text-white'
     />
   </div>
 
-  <div class='my-0'>
-    <PeopleList title='Organizers' people={organizers} bgcolor='bg-sky-100' />
-  </div>
+  <!-- <div class='my-0'> -->
+  <PeopleList
+    title='Organizers'
+    people={organizers}
+    bgcolor='bg-navyblue-500 text-white'
+  />
+  <!-- </div> -->
 </BaseLayout>
