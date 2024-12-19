@@ -47,11 +47,11 @@ The actual build & deploy to <https://approximateinference.org> are automaticall
 
 ### Updating call of papers (CfP)
 
-Simply update `[src/contents/call.md](https://github.com/approximateinference/approximateinference/blob/2025/src/contents/call.md)`.
+Simply update [`src/contents/call.md`](https://github.com/approximateinference/approximateinference/blob/2025/src/contents/call.md).
 
 ### Updating schedule
 
-1. Go to `[src/contents/schedule.md](https://github.com/approximateinference/approximateinference/blob/2025/src/contents/schedule.md)`.
+1. Go to [`src/contents/schedule.md`](https://github.com/approximateinference/approximateinference/blob/2025/src/contents/schedule.md).
 2. Simply write standard markdown tables to create the schedule. E.g. use this website: <https://www.tablesgenerator.com/markdown_tables>.
 
 ### Updating invited-speakers/organizers list
