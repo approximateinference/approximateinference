@@ -32,9 +32,10 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["Helvetica", fontFamily.sans],
+        sans: ["Roboto", "Helvetica", fontFamily.sans],
         serif: ["Times", fontFamily.serif],
         mono: [fontFamily.mono],
+        display: ["Roboto Condensed", fontFamily.sans],
       },
       fontSize: {
         base: "1rem",
