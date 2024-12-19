@@ -11,10 +11,11 @@ For how-tos FAQs specific to the AABI website, please see below.
 
 - [Setup](#setup)
 - [How-Tos](#how-tos)
-  - [Creating/updating contents](#creatingupdating-contents)
-  - [Updating invited speakers/organizers list](#updating-invited-speakersorganizers-list)
+  - [Updateing CfP](#updating-call-of-papers-cfp)
   - [Updating schedule](#updating-schedule)
+  - [Updating invited speakers/organizers list](#updating-invited-speakersorganizers-list)
   - [Displaying accepted papers list](#displaying-list-of-accepted-papers)
+  - [Creating/updating contents in general](#creatingupdating-contents)
 
 ## Setup
 
@@ -43,39 +44,6 @@ bun astro build
 The actual build & deploy to <https://approximateinference.org> are automatically handled by the Github action in `.github/workflows/deploy.yml`, as soon as the `master` branch is updated.
 
 ## How-Tos
-
-### Creating/updating contents in general
-
-> [!TIP]
-> Check `[src/pages/index.astro](https://github.com/approximateinference/approximateinference/blob/2025/src/pages/index.astro)` for example.
-
-1. Create a new page in `src/pages`, e.g. `new_page.astro`. You can copy-paste the exsisting page. Note that, the filename is important since it reflects the site endpoint: `new_page.astro` translates into `https://approximateinference.org/new_page`.
-2. Put the following into `new_page.astro`:
-
-```ts
----
-import { Content } from "../contents/new_page.md";
----
-
-// Some HTML elements here
-
-<Content />
-
-// Some other HTML elements here
-```
-
-3. Next, create the content itself, in the form of a markdown document in `src/contents`. In this example, we create `src/contents/new_page.md`. Don't forget to set the title in the front matter. Note that you can also use `.mdx` extension. In this case, you will be able to use Astro components inside the markdown file. See `src/contents/index.md` for an example. See also Astro's documentation.
-
-```md
----
-layout: ../layouts/ContentLayout.astro
-title: "New Page"
----
-
-Your content here! It's just a standard markdown you know and love!
-```
-
-4. Then, you can link the page into the navbar in the header. This can be done by modifying `src/components/layout/Header.astro`. Simply copy-paste the existing nav link there and modify as necessary. Otherwise, you can simply link the new page as usual in other markdown files.
 
 ### Updating call of papers (CfP)
 
@@ -110,3 +78,36 @@ Simply update `[src/contents/call.md](https://github.com/approximateinference/ap
 2. Store the returned JSON file in `src/assets/accepted_papers.json`.
 3. The page `https://approximateinference.org/accepted` will automatically be populated during deployment.
 4. **How does it work?** Go to `src/contents/accepted.mdx` --- the JSON file is loaded there and passed to the `PaperList` component. Note that the object schemas are defined in `src/utils/paper.ts`.
+
+### Creating/updating contents in general
+
+> [!TIP]
+> Check `[src/pages/index.astro](https://github.com/approximateinference/approximateinference/blob/2025/src/pages/index.astro)` for example.
+
+1. Create a new page in `src/pages`, e.g. `new_page.astro`. You can copy-paste the exsisting page. Note that, the filename is important since it reflects the site endpoint: `new_page.astro` translates into `https://approximateinference.org/new_page`.
+2. Put the following into `new_page.astro`:
+
+```ts
+---
+import { Content } from "../contents/new_page.md";
+---
+
+// Some HTML elements here
+
+<Content />
+
+// Some other HTML elements here
+```
+
+3. Next, create the content itself, in the form of a markdown document in `src/contents`. In this example, we create `src/contents/new_page.md`. Don't forget to set the title in the front matter. Note that you can also use `.mdx` extension. In this case, you will be able to use Astro components inside the markdown file. See `src/contents/index.md` for an example. See also Astro's documentation.
+
+```md
+---
+layout: ../layouts/ContentLayout.astro
+title: "New Page"
+---
+
+Your content here! It's just a standard markdown you know and love!
+```
+
+4. Then, you can link the page into the navbar in the header. This can be done by modifying `src/components/layout/Header.astro`. Simply copy-paste the existing nav link there and modify as necessary. Otherwise, you can simply link the new page as usual in other markdown files.
