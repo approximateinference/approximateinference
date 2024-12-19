@@ -44,7 +44,10 @@ The actual build & deploy to <https://approximateinference.org> are automaticall
 
 ## How-Tos
 
-### Creating/updating contents
+### Creating/updating contents in general
+
+> [!TIP]
+> Check `[src/pages/index.astro](https://github.com/approximateinference/approximateinference/blob/2025/src/pages/index.astro)` for example.
 
 1. Create a new page in `src/pages`, e.g. `new_page.astro`. You can copy-paste the exsisting page. Note that, the filename is important since it reflects the site endpoint: `new_page.astro` translates into `https://approximateinference.org/new_page`.
 2. Put the following into `new_page.astro`:
@@ -54,7 +57,11 @@ The actual build & deploy to <https://approximateinference.org> are automaticall
 import { Content } from "../contents/new_page.md";
 ---
 
+// Some HTML elements here
+
 <Content />
+
+// Some other HTML elements here
 ```
 
 3. Next, create the content itself, in the form of a markdown document in `src/contents`. In this example, we create `src/contents/new_page.md`. Don't forget to set the title in the front matter. Note that you can also use `.mdx` extension. In this case, you will be able to use Astro components inside the markdown file. See `src/contents/index.md` for an example. See also Astro's documentation.
@@ -69,6 +76,15 @@ Your content here! It's just a standard markdown you know and love!
 ```
 
 4. Then, you can link the page into the navbar in the header. This can be done by modifying `src/components/layout/Header.astro`. Simply copy-paste the existing nav link there and modify as necessary. Otherwise, you can simply link the new page as usual in other markdown files.
+
+### Updating call of papers (CfP)
+
+Simply update `[src/contents/call.md](https://github.com/approximateinference/approximateinference/blob/2025/src/contents/call.md)`.
+
+### Updating schedule
+
+1. Go to `[src/contents/schedule.md](https://github.com/approximateinference/approximateinference/blob/2025/src/contents/schedule.md)`.
+2. Simply write standard markdown tables to create the schedule. E.g. use this website: <https://www.tablesgenerator.com/markdown_tables>.
 
 ### Updating invited-speakers/organizers list
 
@@ -87,11 +103,6 @@ Your content here! It's just a standard markdown you know and love!
 ```
 
 3. **How does it work?** Go to `src/contents/index.mdx`. (Note that `.mdx` is like `.md` but can use Astro components.) Notice that near the beginning of the file, we load the JSON file content, load the `PeopleList` component from `src/components/PeopleList.astro`, and then pass the JSON object into `PeopleList` in the content. Note that the object schema is defined in `src/utils/person.ts`.
-
-### Updating schedule
-
-1. Go to `src/contents/schedule.md`.
-2. Simply write standard markdown tables to create the schedule. E.g. use this website: <https://www.tablesgenerator.com/markdown_tables>.
 
 ### Displaying list of accepted papers
 
