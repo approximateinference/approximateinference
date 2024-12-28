@@ -8,9 +8,11 @@ import { siteConfig } from "@/site-config";
 type Props = SiteMeta;
 
 const { description, title } = Astro.props;
+
 const titleSeparator = "-";
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const socialImageURL = new URL("/images/bdl.png", Astro.url).href;
 ---
 
 <meta charset='utf-8' />
@@ -52,13 +54,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <meta content={canonicalURL} property='og:url' />
 <meta content={siteConfig.title} property='og:site_name' />
 <meta content={siteConfig.ogLocale} property='og:locale' />
-<meta content='1200' property='og:image:width' />
-<meta content='630' property='og:image:height' />
+<meta content={socialImageURL} property='og:image' />
+<meta content='1024' property='og:image:width' />
+<meta content='1024' property='og:image:height' />
 
 {/* Twitter */}
-<meta content='summary_large_image' property='twitter:card' />
+<meta content='summary' property='twitter:card' />
 <meta content={canonicalURL} property='twitter:url' />
 <meta content={title} property='twitter:title' />
 <meta content={description} property='twitter:description' />
+<meta content={socialImageURL} property='twitter:image' />
 
 <meta content={Astro.generator} name='generator' />
