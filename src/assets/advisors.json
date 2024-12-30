@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Vincent Fortuin",
+    "affiliation": "Helmholtz AI & TU Munich",
+    "pic": "/images/people/vincent.jpeg",
+    "link": "https://fortuin.github.io"
+  },
+  {
+    "name": "Yingzhen Li",
+    "affiliation": "Imperial College London",
+    "pic": "/images/people/yingzhen.jpeg",
+    "link": "http://yingzhenli.net/home/en/"
+  },
+  {
+    "name": "Stephan Mandt",
+    "affiliation": "UC Irvine",
+    "pic": "/images/people/stephan.jpeg",
+    "link": "https://www.stephanmandt.com/"
+  }
+]

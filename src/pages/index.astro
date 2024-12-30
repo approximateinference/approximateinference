@@ -6,6 +6,7 @@ import PeopleList from "@/components/PeopleList.astro";
 
 import invited_speakers from "../assets/invited_speakers.json";
 import organizers from "../assets/organizers.json";
+import advisors from "../assets/advisors.json";
 ---
 
 <BaseLayout title='Home'>
@@ -21,11 +22,15 @@ import organizers from "../assets/organizers.json";
     />
   </div>
 
-  <!-- <div class='my-0'> -->
   <PeopleList
     title='Organizers'
     people={organizers}
     bgcolor='bg-navyblue-500 text-white'
   />
-  <!-- </div> -->
+
+  <PeopleList
+    title='Advisory Committee'
+    people={advisors}
+    bgcolor='bg-navyblue-400 text-white'
+  />
 </BaseLayout>
