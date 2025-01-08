@@ -16,6 +16,18 @@ This year we will run three submission tracks:
 
 For the call for papers and submission instructions, click [here](/call).
 
+---
+
+## Key Dates
+
+|                                         |                                |
+| --------------------------------------- | ------------------------------ |
+| Abstract Deadline                       | Mar. 1 2024, anywhere on Earth |
+| Submission Deadline                     | Mar. 8 2024, anywhere on Earth |
+| Notification of Acceptance or Rejection | May 15 2024                    |
+| Main Conference                         | Aug. 10-12                     |
+|                                         |                                |
+
 <!-- ## Location and Registration -->
 <!---->
 <!-- The symposium will take place in the TU the Sky room on the 11th floor of the TU Wien building in downtown Vienna (maps link). -->

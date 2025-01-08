@@ -1,0 +1,15 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PeopleList from "@/components/PeopleList.astro";
+
+import organizers from "../assets/organizers.json";
+import advisors from "../assets/advisors.json";
+---
+
+<BaseLayout title='Home'>
+  <PeopleList title='Organizers' people={organizers} />
+
+  <hr />
+
+  <PeopleList title='Advisory Committee' people={advisors} />
+</BaseLayout>
