@@ -2,12 +2,32 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import PeopleList from "@/components/PeopleList.astro";
 
-import organizers from "../assets/organizers.json";
+import general_chairs from "../assets/general_chair.json";
+import program_chairs from "../assets/program_chairs.json";
+import website_chairs from "../assets/website_chairs.json";
+import comm_chairs from "../assets/comm_chairs.json";
+import sponsor_chairs from "../assets/sponsor_chairs.json";
 import advisors from "../assets/advisors.json";
 ---
 
 <BaseLayout title='Home'>
-  <PeopleList title='Organizers' people={organizers} />
+  <PeopleList title='General Chair' people={general_chairs} />
+
+  <hr />
+
+  <PeopleList title='Program Chairs' people={program_chairs} />
+
+  <hr />
+
+  <PeopleList title='Website Chairs' people={website_chairs} />
+
+  <hr />
+
+  <PeopleList title='Communication Chairs' people={comm_chairs} />
+
+  <hr />
+
+  <PeopleList title='Sponsorship Chairs' people={sponsor_chairs} />
 
   <hr />
 
