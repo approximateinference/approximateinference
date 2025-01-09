@@ -9,27 +9,30 @@ title: "Key Dates"
 
 ## Fast Track
 
-- **Submission deadline (Proceedings and Workshop Tracks):** 29 March 2024 (11:59pm AoE)
-- **Submission deadline (Fast Track):** 10 May 2024 (11:59pm AoE)
-- **Reviews released (Proceedings Track):** 3 May 2024
-- **Author rebuttal due (Proceedings Track):** 10 May 2024 (11:59pm AoE)
-- **Acceptance notification:** 24 May 2024
-- **Camera-ready for accepted submissions:** 12 July 2024
+|                                         |                                |
+| --------------------------------------- | ------------------------------ |
+| Abstract Deadline                       | Mar. 1 2024, anywhere on Earth |
+| Submission Deadline                     | Mar. 8 2024, anywhere on Earth |
+| Notification of Acceptance or Rejection | May 15 2024                    |
+| Main Conference                         | Aug. 10-12                     |
+|                                         |                                |
 
 ## Proceeding Track
 
-- **Submission deadline (Proceedings and Workshop Tracks):** 29 March 2024 (11:59pm AoE)
-- **Submission deadline (Fast Track):** 10 May 2024 (11:59pm AoE)
-- **Reviews released (Proceedings Track):** 3 May 2024
-- **Author rebuttal due (Proceedings Track):** 10 May 2024 (11:59pm AoE)
-- **Acceptance notification:** 24 May 2024
-- **Camera-ready for accepted submissions:** 12 July 2024
+|                                         |                                |
+| --------------------------------------- | ------------------------------ |
+| Abstract Deadline                       | Mar. 1 2024, anywhere on Earth |
+| Submission Deadline                     | Mar. 8 2024, anywhere on Earth |
+| Notification of Acceptance or Rejection | May 15 2024                    |
+| Main Conference                         | Aug. 10-12                     |
+|                                         |                                |
 
 ## Workshop Track
 
-- **Submission deadline (Proceedings and Workshop Tracks):** 29 March 2024 (11:59pm AoE)
-- **Submission deadline (Fast Track):** 10 May 2024 (11:59pm AoE)
-- **Reviews released (Proceedings Track):** 3 May 2024
-- **Author rebuttal due (Proceedings Track):** 10 May 2024 (11:59pm AoE)
-- **Acceptance notification:** 24 May 2024
-- **Camera-ready for accepted submissions:** 12 July 2024
+|                                         |                                |
+| --------------------------------------- | ------------------------------ |
+| Abstract Deadline                       | Mar. 1 2024, anywhere on Earth |
+| Submission Deadline                     | Mar. 8 2024, anywhere on Earth |
+| Notification of Acceptance or Rejection | May 15 2024                    |
+| Main Conference                         | Aug. 10-12                     |
+|                                         |                                |

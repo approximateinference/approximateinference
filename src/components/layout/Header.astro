@@ -10,7 +10,7 @@
     aria-label='global'
   >
     <a
-      class='flex items-center space-x-3 text-3xl font-medium text-navyblue-500'
+      class='flex items-center space-x-3 text-3xl font-medium text-navyblue-500 dark:text-navyblue-400'
       href='/'
       aria-label='Brand'
     >
@@ -244,11 +244,7 @@
   const links = document.querySelectorAll("nav a");
   links.forEach((link) => {
     if (link.getAttribute("href") === currentUrl && currentUrl !== "/") {
-      link.classList.add(
-        "font-semibold",
-        "text-navyblue-400",
-        "dark:text-navyblue-400",
-      ); // Add active styles to the current link
+      link.classList.add("font-bold", "text-navyblue-500", "dark:text-navyblue-400"); // Add active styles to the current link
     }
   });
 </script>
