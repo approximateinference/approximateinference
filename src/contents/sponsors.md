@@ -1,6 +1,6 @@
 ---
-layout: ../layouts/ContentLayout.astro
-title: "Schedule"
+# layout: ../layouts/ContentLayout.astro
+title: "Sponsors"
 ---
 
 <!-- ## Sponsors -->

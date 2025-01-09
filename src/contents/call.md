@@ -23,13 +23,14 @@ This year we are delighted to continue the new AABI proceedings track, where ful
 - Camera-ready for accepted submissions: 20 April 2025
 - Symposium date: 29 April 2025
 
-<!-- ## Poster Information for Authors
 
-It is the responsibility of the authors to print and bring their own posters to the symposium. Due to space constraints, posters cannot exceed A1 width. That is, the maximum width is 594 mm (23.4 in). A0 posters are permitted in portrait orientation but not in landscape. -->
-
-<!-- ## Camera ready instructions for accepted papers
-
-Camera ready versions of accepted papers should be deanonymized, listing author names and affiliations, and incorporate the feedback provided by reviewers. We allow an additional page to account for them (i.e., max 7 pages for the workshop track and 13 pages for the proceedings track). Updated manuscripts should be uploaded to OpenReview by 12 July 2024. -->
+<!-- ## Poster Information for Authors -->
+<!---->
+<!-- It is the responsibility of the authors to print and bring their own posters to the symposium. Due to space constraints, posters cannot exceed A1 width. That is, the maximum width is 594 mm (23.4 in). A0 posters are permitted in portrait orientation but not in landscape. -->
+<!---->
+<!-- ## Camera ready instructions for accepted papers -->
+<!---->
+<!-- Camera ready versions of accepted papers should be deanonymized, listing author names and affiliations, and incorporate the feedback provided by reviewers. We allow an additional page to account for them (i.e., max 7 pages for the workshop track and 13 pages for the proceedings track). Updated manuscripts should be uploaded to OpenReview by 12 July 2024. -->
 
 ## Paper Submission
 

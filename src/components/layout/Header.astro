@@ -3,14 +3,14 @@
 ---
 
 <header
-  class='sticky top-0 z-50 flex w-full flex-wrap border-b bg-[hsl(var(--background))] pb-3 pl-10 pr-10 pt-3 font-display text-sm sm:flex-nowrap sm:justify-start'
+  class='sticky top-0 z-50 flex w-full flex-wrap border-b bg-[hsl(var(--background))] pb-3 pl-2 pr-2 pt-3 font-display text-sm sm:flex-nowrap sm:justify-start'
 >
   <nav
     class='items-left relative flex w-full justify-between sm:flex-row sm:items-center'
     aria-label='global'
   >
     <a
-      class='flex items-center space-x-3 text-3xl font-medium text-navyblue-400'
+      class='flex items-center space-x-3 text-3xl font-medium text-navyblue-500'
       href='/'
       aria-label='Brand'
     >
@@ -115,17 +115,33 @@
     <div
       class='hidden items-center justify-start gap-x-10 pt-3 text-sm sm:flex sm:justify-center sm:pt-0 md:text-lg'
     >
+      <a href='/dates' class='flex-none font-semibold' aria-label='Nav Menu Item'
+        >Key Dates
+      </a>
+
       <a href='/call' class='flex-none font-semibold' aria-label='Nav Menu Item'
         >Call for Papers
       </a>
 
-      <a href='/schedule' class='flex-none font-semibold' aria-label='Nav Menu Item'
-        >Schedule
+      <a href='/organizers' class='flex-none font-semibold' aria-label='Nav Menu Item'
+        >Organizers
       </a>
 
-      <a href='/accepted' class='flex-none font-semibold' aria-label='Nav Menu Item'
-        >Accepted Papers
+      <a href='/past' class='flex-none font-semibold' aria-label='Nav Menu Item'
+        >Past Meetings
       </a>
+
+      <!-- <a href='/sponsors' class='flex-none font-semibold' aria-label='Nav Menu Item' -->
+      <!--   >Sponsors -->
+      <!-- </a> -->
+
+      <!-- <a href='/schedule' class='flex-none font-semibold' aria-label='Nav Menu Item' -->
+      <!--   >Schedule -->
+      <!-- </a> -->
+
+      <!-- <a href='/accepted' class='flex-none font-semibold' aria-label='Nav Menu Item' -->
+      <!--   >Accepted Papers -->
+      <!-- </a> -->
 
       <!-- <a -->
       <!--   href='/venue' -->
@@ -186,9 +202,12 @@
 
   <!-- Mobile Dropdown Menu -->
   <div id='mobile-menu' class='ml-auto hidden text-right sm:hidden'>
+    <a href='/dates' class='block px-4 py-2'>Key Dates</a>
     <a href='/call' class='block px-4 py-2'>Call for Papers</a>
-    <a href='/schedule' class='block px-4 py-2'>Schedule</a>
-    <a href='/accepted' class='block px-4 py-2'>Accepted Papers</a>
+    <a href='/organizers' class='block px-4 py-2'>Organizers</a>
+    <a href='/past' class='block px-4 py-2'>Past Meetings</a>
+    <!-- <a href='/schedule' class='block px-4 py-2'>Schedule</a> -->
+    <!-- <a href='/accepted' class='block px-4 py-2'>Accepted Papers</a> -->
     <!-- <a href='/venue' class='block px-4 py-2'>Venue</a> -->
   </div>
 </header>
