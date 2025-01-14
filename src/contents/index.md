@@ -3,10 +3,11 @@
 title: "Home"
 ---
 
-In recent years, there have been numerous advances in approximate inference methods, which have enabled Bayesian inference in increasingly challenging scenarios involving complex probabilistic models and large datasets.
-The 6th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of Bayesian inference, connecting approximate inference methods with other fields.
-We encourage submissions that relate Bayesian inference to the fields of deep learning, reinforcement learning, causal inference, decision processes, Bayesian compression, or differential privacy, among others.
-We also encourage submissions that contribute to connecting different approximate inference methods.
+In recent years, there have been numerous advances in probabilistic machine learning and approximate inference, which have enabled applications to increasingly challenging scenarios involving complex probabilistic models and large datasets.
+The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields.
+We encourage submissions that relate probabilistic methods to the fields of deep learning, reinforcement learning, causal inference, decision processes, compression, or differential privacy, among others.
+We also encourage submissions that contribute to connecting different probabilistic methods and/or approximate inference methods.
+
 
 This year we will run three submission tracks:
 
@@ -16,17 +17,18 @@ This year we will run three submission tracks:
 
 For the call for papers and submission instructions, click [here](/call).
 
----
 
 ## Key Dates
 
-|                                         |                                |
-| --------------------------------------- | ------------------------------ |
-| Abstract Deadline                       | Mar. 1 2024, anywhere on Earth |
-| Submission Deadline                     | Mar. 8 2024, anywhere on Earth |
-| Notification of Acceptance or Rejection | May 15 2024                    |
-| Main Conference                         | Aug. 10-12                     |
-|                                         |                                |
+- Submission deadline (Proceedings and Workshop Tracks): 7 February 2025 (11:59pm AoE)
+- Submission deadline ('Early' Fast Track): 14 February 2025 (11:59pm AoE)
+- Acceptance notification ('Early' Fast Track): 18 February 2025
+- Reviews released (Proceedings Track): 28 February 2025
+- Author rebuttal due (Proceedings Track): 7 March 2025 (11:59pm AoE)
+- Submission deadline ('Late' Fast Track): 14 March 2025 (11:59pm AoE)
+- Acceptance notification (Proceedings, Workshop, and 'Late' Fast Track): 18 March 2025
+- Camera-ready for accepted submissions: 20 April 2025
+- Symposium date: 29 April 2025
 
 <!-- ## Location and Registration -->
 <!---->
