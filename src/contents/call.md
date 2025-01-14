@@ -5,26 +5,30 @@ title: "Call for Papers"
 
 # Call for Papers
 
-We invite submissions to the 7th Symposium on Advances in Approximate Bayesian Inference, and welcome paper submissions and extended abstracts on the development, analysis, or application of approximate Bayesian inference.
+We invite submissions to the 7th Symposium on Advances in Approximate Bayesian Inference and probabilistic inference, and welcome paper submissions and extended abstracts on the development, analysis, or application of approximate Bayesian inference.
 
 In recent years, there have been numerous advances in probabilistic machine learning and approximate inference methods, which have enabled applications to increasingly challenging scenarios involving complex probabilistic models and large datasets.
 The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields.
 We encourage submissions that relate probabilistic methods to the fields of deep learning, reinforcement learning, causal inference, decision processes, compression, or differential privacy, among others.
 We also encourage submissions that contribute to connecting different probabilistic methods and/or approximate inference methods.
 
-This year we are delighted to continue the new AABI proceedings track, where full research papers will be subjected to a rigorous peer-review and published in proceedings of the symposium under the title Advances in Approximate Bayesian Inference 2025. <!-- The proceedings are available here. -->
+This year we are delighted to continue the AABI proceedings track, where full research papers will be subjected to a rigorous peer-review and published in proceedings of the symposium under the title Advances in Approximate Bayesian Inference 2025. <!-- The proceedings are available here. -->
 
 ## Key Dates
 
+Proceedings and Workshop Tracks
 - Submission deadline (Proceedings and Workshop Tracks): 7 February 2025 (11:59pm AoE)
-- Submission deadline ('Early' Fast Track): 14 February 2025 (11:59pm AoE)
-- Acceptance notification ('Early' Fast Track): 18 February 2025
 - Reviews released (Proceedings Track): 28 February 2025
 - Author rebuttal due (Proceedings Track): 7 March 2025 (11:59pm AoE)
-- Submission deadline ('Late' Fast Track): 14 March 2025 (11:59pm AoE)
-- Acceptance notification (Proceedings, Workshop, and 'Late' Fast Track): 18 March 2025
+- Acceptance notification (Proceedings, Workshop): 18 March 2025
 - Camera-ready for accepted submissions: 20 April 2025
 - Symposium date: 29 April 2025
+
+Fast Track
+- Submission deadline ('Early' Fast Track): 14 February 2025 (11:59pm AoE)
+- Acceptance notification ('Early' Fast Track): 18 February 2025
+- Submission deadline ('Late' Fast Track): 14 March 2025 (11:59pm AoE)
+- Acceptance notification ('Late' Fast Track): 18 March 2025
 
 
 <!-- ## Poster Information for Authors -->
@@ -63,7 +67,7 @@ To submit proceedings track papers, please use the OpenReview submission link (c
 
 ### Workshop Track
 
-A workshop track submission should take the form of an extended abstract of 3-6 pages in PDF format. Submissions may use the AABI PMLR one-column style ([**template**](https://approximateinference.org/pmlr/aabi2024workshop.zip)) or the format of any other workshop so long as the length is under 6 pages.
+A workshop track submission should take the form of an extended abstract of 3-6 pages in PDF format. Submissions may use the AABI PMLR one-column style ([**template**](https://approximateinference.org/pmlr/aabi2024workshop.zip)) or the format of any other workshop so long as the length is not more than 6 pages.
 For questions and troubleshooting, visit [CTAN](https://ctan.org/tex-archive/macros/latex/contrib/jmlr).
 
 The review process will be double-blind. Author names need to be anonymized and references may extend as far as needed beyond the 6-page limit. Submissions may include a supplement/appendix, but reviewers are not required to read any supplementary material. Final decisions and reviews will be released on 18 March 2025.
