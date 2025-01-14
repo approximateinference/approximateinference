@@ -7,7 +7,10 @@ title: "Call for Papers"
 
 We invite submissions to the 7th Symposium on Advances in Approximate Bayesian Inference, and welcome paper submissions and extended abstracts on the development, analysis, or application of approximate Bayesian inference.
 
-In recent years, there have been numerous advances in approximate inference methods, which have enabled Bayesian inference in increasingly challenging scenarios involving complex probabilistic models and large datasets. The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of Bayesian inference, connecting approximate inference methods with other fields. We encourage submissions that relate Bayesian inference to the fields of deep learning, reinforcement learning, causal inference, decision processes, Bayesian compression, or differential privacy, among others. We also encourage submissions that contribute to connecting different approximate inference methods.
+In recent years, there have been numerous advances in probabilistic machine learning and approximate inference methods, which have enabled applications to increasingly challenging scenarios involving complex probabilistic models and large datasets.
+The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields.
+We encourage submissions that relate probabilistic methods to the fields of deep learning, reinforcement learning, causal inference, decision processes, compression, or differential privacy, among others.
+We also encourage submissions that contribute to connecting different probabilistic methods and/or approximate inference methods.
 
 This year we are delighted to continue the new AABI proceedings track, where full research papers will be subjected to a rigorous peer-review and published in proceedings of the symposium under the title Advances in Approximate Bayesian Inference 2025. <!-- The proceedings are available here. -->
 
@@ -77,7 +80,7 @@ We also invite researchers to present papers on the development, analysis, or ap
 
 Papers accepted within this modality will be presented in person as posters. These papers will not appear on the AABI website.
 
-To submit fast track papers, please use this submission link (coming soon).
+To submit fast track papers, please use [this submission link](https://docs.google.com/forms/d/e/1FAIpQLSfKiOa3NLTtWDjfBovw1rhhZg04fmfSqzM6SpheIy8z9HXVyw/viewform?usp=dialog).
 
 Please note that we have two Fast Track deadlines:
 - 'Early' - 14 February 2025 (11:59pm AoE)
