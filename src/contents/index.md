@@ -3,12 +3,12 @@
 title: "Home"
 ---
 
-In recent years,, there have been numerous advances in probabilistic machine learning and approximate inference methods, which have enabled the development of state-of-the-art methods across many domains, such as in for generative modeling, AI-driven scientific discovery, and AI safety, among many other domains. applications to increasingly challenging scenarios involving complex probabilistic models and large datasets.
+In recent years, advances in probabilistic machine learning and approximate inference methods have enabled the development of state-of-the-art methods across many domains, such as in generative modeling, AI-driven scientific discovery, and AI safety. 
 
-The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields in machine learning and across the sciences..
-We especially encourage submissions that relate probabilistic methods to:
+The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields in machine learning and across the sciences. 
+For example, we encourage submissions that relate probabilistic methods to:
 
-- the fields of deep learning,
+- deep learning,
 - reinforcement learning,
 - NLP,
 - causal inference,
@@ -19,7 +19,7 @@ We especially encourage submissions that relate probabilistic methods to:
 - AI for science, and
 - causal inference.
 
-We also encourage submissions that contribute to the foundations of probabilistic machine learning and machine learning theory.connecting different probabilistic methods and/or approximate inference methods.
+We also encourage submissions that contribute to the foundations of probabilistic machine learning and machine learning theory.
 
 This year we will run three submission tracks:
 
