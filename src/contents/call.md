@@ -5,12 +5,11 @@ title: "Call for Papers"
 
 # Call for Papers
 
-We invite submissions to the 7th Symposium on Advances in Approximate Bayesian Inference and probabilistic inference, and welcome paper submissions and extended abstracts on the development, analysis, or application of approximate Bayesian inference.
+We invite submissions to the 7th Symposium on Advances in Approximate Bayesian Inference, and welcome paper submissions and extended abstracts on the development, analysis, or application of approximate Bayesian inference and probabilistic machine learning.
 
-In recent years, there have been numerous advances in probabilistic machine learning and approximate inference methods, which have enabled applications to increasingly challenging scenarios involving complex probabilistic models and large datasets.
-The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields.
-We encourage submissions that relate probabilistic methods to the fields of deep learning, reinforcement learning, causal inference, decision processes, compression, or differential privacy, among others.
-We also encourage submissions that contribute to connecting different probabilistic methods and/or approximate inference methods.
+In recent years, advances in probabilistic machine learning and approximate inference methods have enabled the development of state-of-the-art methods across many domains, such as in generative modeling, AI-driven scientific discovery, and AI safety. 
+The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields in machine learning and across the sciences. 
+For example, we encourage submissions that relate probabilistic methods to the fields of deep learning, reinforcement learning, NLP, causal inference, decision-making under uncertainty, compression, AI safety, ML systems, AI for science, or causal inference. We also encourage submissions that contribute to the foundations of probabilistic machine learning and machine learning theory. 
 
 This year we are delighted to continue the AABI proceedings track, where full research papers will be subjected to a rigorous peer-review and published in proceedings of the symposium under the title Advances in Approximate Bayesian Inference 2025. <!-- The proceedings are available here. -->
 
