@@ -25,6 +25,4 @@ title: "Key Dates"
 | Acceptance notification ('Early' Fast Track) | 18 February 2025               |
 | Submission deadline ('Late' Fast Track)      | 14 March 2025 (11:59pm AoE)    |
 | Acceptance notification ('Late' Fast Track)  | 18 March 2025                  |
-| Camera-ready for accepted submissions        | 20 April 2025                  |
-| Symposium date                               | 29 April 2025                  |
 |                                              |                                |

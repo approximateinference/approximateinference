@@ -3,23 +3,12 @@
 title: "Home"
 ---
 
-In recent years, advances in probabilistic machine learning and approximate inference methods have enabled the development of state-of-the-art methods across many domains, such as in generative modeling, AI-driven scientific discovery, and AI safety. 
+In recent years, advances in probabilistic machine learning and approximate inference methods have enabled the development of state-of-the-art methods across many domains, such as in generative modeling, AI-driven scientific discovery, and AI safety, among many others.
 
-The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields in machine learning and across the sciences. 
-For example, we encourage submissions that relate probabilistic methods to:
-
-- deep learning,
-- reinforcement learning,
-- NLP,
-- causal inference,
-- decision-making under uncertainty,
-- compression,
-- AI safety,
-- ML systems,
-- AI for science, and
-- causal inference.
-
-We also encourage submissions that contribute to the foundations of probabilistic machine learning and machine learning theory.
+The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will be held on April 29, 2025, in Singapore, co-located with ICLR 2025.
+This year’s symposium will have an expanded scope and will be focused on the development, analysis, and application of probabilistic machine learning methods broadly construed.
+In line with this expanded focus, we particularly welcome submissions that explore connections between probabilistic machine learning and other fields such as deep learning, natural language processing, active learning, reinforcement learning, compression, AI safety, AI for scientific discovery, and causal inference.
+We also encourage contributions that advance the foundations of probabilistic machine learning and machine learning theory.
 
 This year we will run three submission tracks:
 
@@ -51,8 +40,6 @@ For the call for papers and submission instructions, click [here](/call).
 | Acceptance notification ('Early' Fast Track) | 18 February 2025               |
 | Submission deadline ('Late' Fast Track)      | 14 March 2025 (11:59pm AoE)    |
 | Acceptance notification ('Late' Fast Track)  | 18 March 2025                  |
-| Camera-ready for accepted submissions        | 20 April 2025                  |
-| Symposium date                               | 29 April 2025                  |
 |                                              |                                |
 
 For the call for papers and submission instructions, click [here](/call).

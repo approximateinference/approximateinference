@@ -5,17 +5,16 @@ title: "Call for Papers"
 
 # Call for Papers
 
-We invite submissions to the 7th Symposium on Advances in Approximate Bayesian Inference, and welcome paper submissions and extended abstracts on the development, analysis, or application of approximate Bayesian inference and probabilistic machine learning.
+We invite submissions to the 7th Symposium on Advances in Approximate Bayesian Inference, and welcome paper submissions and extended abstracts on the development, analysis, or application of probabilistic methods in machine learning.
 
-In recent years, advances in probabilistic machine learning and approximate inference methods have enabled the development of state-of-the-art methods across many domains, such as in generative modeling, AI-driven scientific discovery, and AI safety. 
-The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will discuss this impact of probabilistic methods, and connections with other fields in machine learning and across the sciences. 
-For example, we encourage submissions that relate probabilistic methods to the fields of deep learning, reinforcement learning, NLP, causal inference, decision-making under uncertainty, compression, AI safety, ML systems, AI for science, or causal inference. We also encourage submissions that contribute to the foundations of probabilistic machine learning and machine learning theory. 
+The 7th Symposium on Advances in Approximate Bayesian Inference (AABI) will have an expanded scope and will be focused on the development, analysis, and application of probabilistic machine learning methods broadly construed. In line with this expanded focus, we particularly welcome submissions that explore connections between probabilistic machine learning and other fields such as deep learning, natural language processing, active learning, reinforcement learning, compression, AI safety, AI for scientific discovery, and causal inference. We also encourage contributions that advance the foundations of probabilistic machine learning and machine learning theory.
 
-This year we are delighted to continue the AABI proceedings track, where full research papers will be subjected to a rigorous peer-review and published in proceedings of the symposium under the title Advances in Approximate Bayesian Inference 2025. <!-- The proceedings are available here. -->
+We are delighted to continue the archival AABI proceedings track, where full research papers will be subjected to a rigorous peer-review and published in proceedings of the symposium under the title Advances in Approximate Bayesian Inference 2025.
 
 ## Key Dates
 
-Proceedings and Workshop Tracks
+**Proceedings and Workshop Tracks**
+
 - Submission deadline (Proceedings and Workshop Tracks): 7 February 2025 (11:59pm AoE)
 - Reviews released (Proceedings Track): 28 February 2025
 - Author rebuttal due (Proceedings Track): 7 March 2025 (11:59pm AoE)
@@ -23,12 +22,12 @@ Proceedings and Workshop Tracks
 - Camera-ready for accepted submissions: 20 April 2025
 - Symposium date: 29 April 2025
 
-Fast Track
+**Fast Track**
+
 - Submission deadline ('Early' Fast Track): 14 February 2025 (11:59pm AoE)
 - Acceptance notification ('Early' Fast Track): 18 February 2025
 - Submission deadline ('Late' Fast Track): 14 March 2025 (11:59pm AoE)
 - Acceptance notification ('Late' Fast Track): 18 March 2025
-
 
 <!-- ## Poster Information for Authors -->
 <!---->
@@ -86,6 +85,8 @@ Papers accepted within this modality will be presented in person as posters. The
 To submit fast track papers, please use [this submission link](https://docs.google.com/forms/d/e/1FAIpQLSfKiOa3NLTtWDjfBovw1rhhZg04fmfSqzM6SpheIy8z9HXVyw/viewform?usp=dialog).
 
 Please note that we have two Fast Track deadlines:
-- 'Early' - 14 February 2025 (11:59pm AoE)
-- 'Late' - 14 March 2025 (11:59pm AoE)
+
+- **'Early'** --- 14 February 2025 (11:59pm AoE)
+- **'Late'** --- 14 March 2025 (11:59pm AoE)
+
 Papers submitted before the 'early' deadline will receive acceptance notifications on 18 February 2025. Papers submitted after this deadline but before the 'late' deadline will receive acceptance notifications on 18 March 2025.
