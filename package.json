@@ -13,6 +13,7 @@
   "dependencies": {
     "@astrojs/check": "0.9.4",
     "@astrojs/mdx": "4.0.2",
+    "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "5.1.3",
     "@designbycode/tailwindcss-text-shadow": "^2.2.1",
     "@fontsource/roboto": "^5.1.1",
