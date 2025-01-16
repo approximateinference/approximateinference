@@ -14,7 +14,8 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://approximateinference.org",
+  // site: "https://approximateinference.org",
+  site: "https://approximateinference.github.io",
   prefetch: true,
   integrations: [
     expressiveCode(expressiveCodeOptions),
