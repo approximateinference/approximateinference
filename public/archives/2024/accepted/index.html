@@ -1,0 +1,1009 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="James Allingham" />
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <title>Approximate Inference - Accepted Papers</title>
+
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/main.css" />
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" style="padding: 20px">
+      <div class="hidden-xs col-sm-3 col-md-2"></div>
+
+      <div class="col-xs-12 col-sm-12 col-md-9">
+        <div class="row" style="margin-bottom: -10px">
+          <div class="col-xs-12 hidden-sm hidden-md hidden-lg"></div>
+          <div class="hidden-xs"></div>
+          <h2>
+            6th Symposium on<br />Advances in Approximate Bayesian Inference
+          </h2>
+          <p class="lead">
+            Sunday, 21 July 2024<br />
+            Getreidemarkt 9, 1060 Vienna, BA Gebäude, 11th floor (TU the Sky
+            room)<br />
+            Co-located with
+            <a style="text-decoration: none" href="https://icml.cc/Conferences/2024">ICML</a>
+          </p>
+          <p>
+            <a href="https://twitter.com/aabi_org?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+              data-show-count="false">Follow @aabi_org</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <br />
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 order-sm-1 order-1" id="sidebar" role="navigation">
+        <hr />
+        <ul class="nav d-flex flex-column flex-sm-row main-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../call/index.html">Call for Papers</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="../index.html">Attend</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="../schedule/index.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../accepted/index.html">Accepted Papers</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="../program/index.html">Program Committee</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#sponsors">Sponsors</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-sm-3 order-sm-2 order-3">
+        <hr />
+
+        <ul class="nav flex-column">
+          <li class="subsec-heading" style="padding: 5px 0px 10px">
+            Organizers
+          </li>
+          <div class="nav-subsection">General Chair</div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://fortuin.github.io/">Vincent Fortuin</a>
+          </li>
+          <div class="nav-subsection">Program Chairs</div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://javierantoran.github.io/about/">Javier Antorán</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://naesseth.github.io/">Christian A. Naesseth</a>
+          </li>
+          <div class="nav-subsection">Communication Chairs</div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mgorinova.github.io/">Maria Gorinova</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://karaletsos.com/">Theofanis Karaletsos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://sites.google.com/view/sonali-parbhoo/home">Sonali Parbhoo</a>
+          </li>
+          <div class="nav-subsection">Website Chairs</div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://jamesallingham.com/">James U. Allingham</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://agustinus.kristia.de/">Agustinus Kristiadi</a>
+          </li>
+          <div class="nav-subsection">Local Chair</div>
+          <li class="nav-item">
+            <a class="nav-link" href="http://timrudner.com/">Tim G. J. Rudner</a>
+          </li>
+          <div class="nav-subsection">Sponsorship Chairs</div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://siddharthswaroop.github.io/">Siddharth Swaroop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://ruqizhang.github.io/">Ruqi Zhang</a>
+          </li>
+          <div class="nav-subsection">Advisory Committee</div>
+          <li class="nav-item">
+            <a class="nav-link" href="http://yingzhenli.net/home/en/">Yingzhen Li</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.stephanmandt.com/">Stephan Mandt</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-9 col-12 order-sm-3 order-2">
+        <hr />
+
+        <div class="row">
+          <h3>List of papers</h3>
+
+          <h4>Proceedings Track</h4>
+
+          <p>
+            Accepted papers are available at
+            <a
+              href="https://openreview.net/group?id=approximateinference.org/AABI/2024/Symposium_Archival_Track#tab-accept">OpenReview</a>
+            and <a href='https://proceedings.mlr.press/v253/'>PMLR</a>.
+          </p>
+
+          <ol>
+            <table class="table" style="margin-bottom: 20px">
+              <tbody>
+                <tr>
+                  <td width="8%">
+                    <li>
+                      Talk + <br />
+                      Poster
+                    </li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=WBPVWdzxBQ">Implicitly Bayesian Prediction Rules in Deep
+                        Learning</a></em>
+                    <br />
+                    Bruno Kacper Mlodozeniec, Richard E. Turner, David Krueger
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>
+                      Talk + <br />
+                      Poster
+                    </li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=V2WVlKJ3GV">PAC-Bayesian Soft Actor-Critic
+                        Learning</a></em>
+                    <br />
+                    Bahareh Tasdighi, Abdullah Akgül, Manuel Haussmann, Kenny
+                    Kazimirzak Brink, Melih Kandemir
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>
+                      Talk + <br />
+                      Poster
+                    </li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=SgRF9bM30w">Bayesian Optimization for Precision
+                        Agriculture with
+                        Scalable Probabilistic Models</a></em>
+                    <br />
+                    Ruhana Azam, Sang T. Truong, samuel bonfim fernandes,
+                    Andrew D.B. Leakey, Alexander Lipka, Mohammed El-Kebir,
+                    Sanmi Koyejo
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>
+                      Talk + <br />
+                      Poster
+                    </li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=N7X1QFxmin">In-Context In-Context Learning with
+                        Transformer
+                        Neural Processes</a></em>
+                    <br />
+                    Matthew Ashman, Cristiana Diaconu, Adrian Weller, Richard
+                    E. Turner
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>
+                      Talk + <br />
+                      Poster
+                    </li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=q3SxkmOvK8">Fluctuation without dissipation:
+                        Microcanonical
+                        Langevin Monte Carlo</a></em>
+                    <br />
+                    Jakob Robnik, Uros Seljak
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>
+                      Talk + <br />
+                      Poster
+                    </li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=vbs6iv1QHk">Non-asymptotic approximations of Gaussian
+                        neural
+                        networks via second-order Poincaré inequalities</a></em>
+                    <br />
+                    Alberto Bordino, Stefano Favaro, Sandra Fortini
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ol>
+
+          <hr />
+
+          <h4>Workshop Track</h4>
+
+          <p>
+            Accepted papers are available at
+            <a
+              href="https://openreview.net/group?id=approximateinference.org/AABI/2024/Symposium#tab-accept">OpenReview</a>
+            for archival purposes. This does not constitute a proceedings for
+            the symposium.
+          </p>
+
+          <ol>
+            <table class="table" style="margin-bottom: 20px">
+              <tbody>
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=by9cKVIs0F">Estimating Expectations without Sampling:
+                        Neural
+                        Stein Estimation</a></em>
+                    <br />
+                    Mohsin Hasan, Dinghuai Zhang, Cheikh Ahmed, Awa Khouna,
+                    Yoshua Bengio
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=LZrCBQBCzl">Gaussian Stochastic Weight Averaging for
+                        Bayesian
+                        Low-rank Adaptation of Large Language Models</a></em>
+                    <br />
+                    Emre Onal, Klemens Flöge, Emma Caldwell, Arsen Sheverdin,
+                    Vincent Fortuin
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=jYOd0K74PB">Shaving Weights with Occam's Razor: Bayesian
+                        Sparsification for Neural Networks using the Marginal
+                        Likelihood</a></em>
+                    <br />
+                    Rayen Dhahri, Alexander Immer, Bertrand Charpentier,
+                    Stephan Günnemann, Vincent Fortuin
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=jx8mP9fJMh">Can a Confident Prior Replace a Cold
+                        Posterior?</a></em>
+                    <br />
+                    Martin Marek, Brooks Paige, Pavel Izmailov
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=3h4vxou4N1">Globally Convergent Variational
+                        Inference</a></em>
+                    <br />
+                    Declan McNamara, Jackson Loper, Jeffrey Regier
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=qc4HwUcnUN">Uncertainty-Guided Optimization on Large
+                        Language
+                        Model Search Trees</a></em>
+                    <br />
+                    Julia Grosse, Ruotian Wu, Ahmad Rashid, Philipp Hennig,
+                    Pascal Poupart, Agustinus Kristiadi
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=LV7LN3jxVJ">On Uncertainty Quantification for Near-Bayes
+                        Optimal
+                        Algorithms</a></em>
+                    <br />
+                    Ziyu Wang, Christopher C. Holmes
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=Z5UapC1jB1">Warm Start Marginal Likelihood Optimisation
+                        for
+                        Iterative Gaussian Processes</a></em>
+                    <br />
+                    Jihao Andreas Lin, Shreyas Padhy, Bruno Kacper
+                    Mlodozeniec, José Miguel Hernández-Lobato
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=dA8JkhBHjZ">Word Embedding Uncertainty
+                        Estimation</a></em>
+                    <br />
+                    Väinö Yrjänäinen, Isac Boström, Måns Magnusson
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=8jSvuJK78S">Evaluating approximate Bayesian inference for
+                        radio
+                        galaxy classification</a></em>
+                    <br />
+                    Devina Mohan, Anna M M Scaife
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=vyIUhU5LUr">Hamilton Monte Carlo with discrete
+                        categorical
+                        parameters using the Concrete distribution</a></em>
+                    <br />
+                    Jakob Torgander, Måns Magnusson, Jonas Wallin
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=ea3ERGY8bm">HybridBNN: Joint Training of Deterministic
+                        and
+                        Stochastic Layers in Bayesian Neural Nets</a></em>
+                    <br />
+                    Amin Nejatbakhsh, Julien Boussard
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=dAlPmyfapb">Explainable Attribution using Additive
+                        Gaussian
+                        Processes</a></em>
+                    <br />
+                    Xiaoyu Lu, Alexis Boukouvalas, James Hensman
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=ZgGIM0MXWA">Unity by Diversity: Improved Representation
+                        Learning
+                        in Multimodal VAEs</a></em>
+                    <br />
+                    Thomas M. Sutter, Yang Meng, Norbert Fortin, Julia E Vogt,
+                    Babak Shahbaba, Stephan Mandt
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=HCVOjfxYXe">Ai-sampler: Adversarial Learning of Markov
+                        kernels
+                        with involutive maps</a></em>
+                    <br />
+                    Evgenii Egorov, Riccardo Valperga, Stratis Gavves
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=sS4dQOmCk0">Structured Partial Stochasticity in Bayesian
+                        Neural
+                        Networks</a></em>
+                    <br />
+                    Tommy Rochussen
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=edeAYkCEGb">How Useful is Intermittent, Asynchronous
+                        Expert
+                        Feedback for Bayesian Optimization?</a></em>
+                    <br />
+                    Agustinus Kristiadi, Felix Strieth-Kalthoff, Sriram
+                    Ganapathi Subramanian, Vincent Fortuin, Pascal Poupart,
+                    Geoff Pleiss
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=cRtZ4sx3cU">On the Properties and Estimation of Pointwise
+                        Mutual
+                        Information Profiles</a></em>
+                    <br />
+                    Paweł Czyż, Frederic Grabowski, Julia E Vogt, Niko
+                    Beerenwinkel, Alexander Marx
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=ZkVtM90m2O">Variational Linearized Laplace Approximation
+                        for
+                        Bayesian Deep Learning</a></em>
+                    <br />
+                    Luis A. Ortega, Simon Rodriguez Santana, Daniel
+                    Hernández-Lobato
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=dCt2FHcq4r">Towards Model-Agnostic Posterior
+                        Approximation for
+                        Fast and Accurate Variational Autoencoders</a></em>
+                    <br />
+                    Yaniv Yacoby, Weiwei Pan, Finale Doshi-Velez
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ol>
+
+          <hr />
+
+          <h4>Fast Track</h4>
+
+          <ol>
+            <table class="table" style="margin-bottom: 20px">
+              <tbody>
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://arxiv.org/abs/2310.19450">Hodge-Compositional Edge Gaussian Processes</a></em>
+                    <br />
+                    Maosheng Yang, Viacheslav Borovitskiy, Elvin Isufi
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=PP1rudnxiW">Transport meets Variational Inference:
+                        Controlled
+                        Monte Carlo Diffusions</a></em>
+                    <br />
+                    Francisco Vargas, Shreyas Padhy, Denis Blessing, Nikolas
+                    Nüsken
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://openreview.net/forum?id=fj2E5OcLFn">Stochastic Gradient Descent for Gaussian
+                        Processes
+                        Done Right</a></em>
+                    <br />
+                    Jihao Andreas Lin, Shreyas Padhy, Javier Antoran, Austin
+                    Tripp, Alexander Terenin, Csaba Szepesvari, José Miguel
+                    Hernández-Lobato, David Janz
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://proceedings.mlr.press/v238/hood24a/hood24a.pdf">The Allocore Tensor Decomposition
+                        for Sparse Count
+                        Data</a></em>
+                    <br />
+                    John Hood, Aaron Schein
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://proceedings.mlr.press/v238/dold24a.html">Bayesian Semi-structured Subspace
+                        Inference</a></em>
+                    <br />
+                    Daniel Dold, David Ruegamer, Beate Sick, Oliver Dürr
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://drive.google.com/file/d/1teedX2f-kkWXCVtO6qzNc49n72ivqW4G/view">Decoupling
+                        Feature Extraction and Classification
+                        Layers for Calibrated Neural Networks</a></em>
+                    <br />
+                    Mikkel Jordahn, Pablo Olmos
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://drive.google.com/file/d/1teedX2f-kkWXCVtO6qzNc49n72ivqW4G/view">Differentiable
+                        Annealed Importance Sampling Minimizes
+                        The Jensen-Shannon Divergence Between Initial and
+                        Target Distribution</a></em>
+                    <br />
+                    Johannes Zenn, Robert Bamler
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="https://drive.google.com/file/d/1teedX2f-kkWXCVtO6qzNc49n72ivqW4G/view">Debiased
+                        Distribution Compression</a></em>
+                    <br />
+                    Lingxiao Li, Raaz Dwivedi, Lester Mackey
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em>
+                      <a href="1D2FFM7zk8wU9WGdG7snZ2D1heOU1kIuK">Variational Resampling</a></em>
+                    <br />
+                    Oskar Kviman, Nicola Branchini, Víctor Elvira, Jens
+                    Lagergren
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://openreview.net/pdf?id=QSvb6jBXML">ZigZag: Universal Sampling-free Uncertainty
+                        Estimation Through Two-Step Inference</a></em>
+                    <br />
+                    Nikita Durasov, Nik Dorndorf, Hieu Le, Pascal Fua
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://openreview.net/forum?id=bplNmU2ROC">Batch and match: black-box variational
+                        inference with
+                        a score-based divergence</a></em>
+                    <br />
+                    Diana Cai, Chirag Modi, Loucas Pillaud-Vivien, Charles C.
+                    Margossian, Robert M. Gower, David M. Blei, Lawrence K.
+                    Saul
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://proceedings.mlr.press/v238/guilmeau24a.html">Adaptive importance sampling for
+                        heavy-tailed
+                        distributions via alpha-divergence minimization</a></em>
+                    <br />
+                    Thomas Guilmeau, Nicola Branchini, Emilie Chouzenoux,
+                    Víctor Elvira
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/1A4ey4tmZlISIK3XNp4fJlMfOxcdocyi2/view?usp=sharing">How
+                        Inverse Conditional Flows Can Serve as a
+                        Substitute for Distributional Regression</a></em>
+                    <br />
+                    Lucas Kook, Chris Kolb, Philipp Schiele, Daniel Dold,
+                    Marcel Arpogaus, Cornelius Fritz, Philipp Baumann, Philipp
+                    Kopper, Tobias Pielok, Emilio Dorigatti, David Rügamer
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://uni-bonn.sciebo.de/s/PLjCJgrGdPjM2kx">An amortized approach to non-linear
+                        mixed-effects
+                        modeling based on neural posterior estimation</a></em>
+                    <br />
+                    Jonas Arruda, Yannik Schälte, Clemens Peiter, Olga
+                    Teplytska, Ulrich Jaehde, Jan Hasenauer
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a
+                        href="https://github.com/lanl/LFIS/blob/main/manuscript-currentSnapshot/LFIS_toArXiv.pdf">Liouville
+                        Flow Importance Sampler</a></em>
+                    <br />
+                    Yifeng Tian, Nishant Panda, Yen Ting Lin
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/1XOxxh7vtF4yeef2GzXYCv48cLKsBy9QK/view">Connecting the
+                        Dots: Is Mode-Connectedness the Key to
+                        Feasible Sample-Based Inference in Bayesian Neural
+                        Networks?</a></em>
+                    <br />
+                    Emanuel Sommer, Lisa Wimmer, Theodore Papamarkou, Ludwig
+                    Bothmann, Bernd Bischl, David Rügamer
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/open?id=1NwgajUPEawi6BzV1_l7cICaodCc74HkV">Outlier-robust
+                        Kalman Filtering through Generalised
+                        Bayes</a></em>
+                    <br />
+                    Gerardo Duran-Martin, Matias Altamirano, Alexander Y.
+                    Shestopaloff, Leandro Sánchez-Betancourt, Jeremias
+                    Knoblauch, Matt Jones, François-Xavier Briol, Kevin Murphy
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/1A92_7IDjKQ9ITX2FU9nU7bB-8SaROHDK/view">Using Autodiff
+                        to Estimate Posterior Moments,
+                        Marginals and Samples</a></em>
+                    <br />
+                    Sam Bowyer, Thomas Heap, Laurence Aitchison
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/15x3e_xZLwnh-qV9-2qBGM95F6IlR5LVU/view">Partially
+                        Stochastic Infinitely Deep Bayesian
+                        Neural Networks</a></em>
+                    <br />
+                    Sergio Calvo-Ordoñez, Matthieu Meunier, Francesco
+                    Piatti, Yuantao Shi
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/1A92_7IDjKQ9ITX2FU9nU7bB-8SaROHDK/view">Robust and
+                        Conjugate Gaussian Process
+                        Regression</a></em>
+                    <br />
+                    Matias Altamirano Francois-Xavier Briol, Jeremias
+                    Knoblauch
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/1vWKt0fvZ0BzTwAq6hQGZorGKztkojPbD/view">Is In-Context
+                        Learning in Large Language Models
+                        Bayesian? A Martingale Perspective</a></em>
+                    <br />
+                    Fabian Falck*, Ziyu Wang*, Chris Holmes
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/1RCHbImmROcorgUTpYxFb4tKJx55Kd67f/view">Approximate
+                        Bayesian Computation with Path
+                        Signatures</a></em>
+                    <br />
+                    Joel Dyer, Patrick Cannon, Sebastian M. Schmon
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://openreview.net/pdf?id=8L7Rh6FIXt">IBIA: An Incremental Build-Infer-Approximate
+                        Framework for Approximate Inference of Partition
+                        Function</a></em>
+                    <br />
+                    Shivani Bathla, Vinita Vasudevan
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://drive.google.com/file/d/1ptAbBPSC9FEMKJbUZNkwIyYJYaGvGBAH/view">Leveraging
+                        Self-Consistency for Data-Efficient
+                        Amortized Bayesian Inference</a></em>
+                    <br />
+                    Marvin Schmitt, Desi R. Ivanova, Daniel Habermann,
+                    Ullrich Köthe, Paul-Christian Bürkner, Stefan T. Radev
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://openreview.net/forum?id=n2YifD4Dxo">Are you using test log-likelihood
+                        correctly?</a></em>
+                    <br />
+                    Sameer K. Deshpande, Soumya Ghosh, Tin D. Nguyen,
+                    Tamara Broderick
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a
+                        href="https://www.dropbox.com/scl/fo/7tcux1qpx0ocrex7vz1ik/AHyz9k9VO1GZYiog-TcvM9I?rlkey=zxwoljn0bruhkb6uiciy03p6v&dl=0">Minimizing
+                        f-Divergences by Interpolating
+                        Velocity Fields</a></em>
+                    <br />
+                    Song Liu, Jiahao Yu, Jack Simons, Mingxuan Yi, Mark
+                    Beaumont
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://openreview.net/forum?id=2dhxxIKhqz">Function-space Parameterization of Neural
+                        Networks for Sequential Learning</a></em>
+                    <br />
+                    Aidan Scannell, Riccardo Mereu, Paul Edmund Chang,
+                    Ella Tamir, Joni Pajarinen, Arno Solin
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="8%">
+                    <li>Poster</li>
+                  </td>
+                  <td>
+                    <em><a href="https://icml.cc/virtual/2024/poster/32850">Causal Discovery using Bayesian Model
+                        Selection</a></em>
+                    <br />
+                    Anish Dhir, Samuel Power, Mark van der Wilk
+                  </td>
+                </tr>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </ol>
+        </div>
+
+        <div class="row" style="padding-top: 3em">
+          <h3><a id="sponsors">Sponsors</a></h3>
+          <hr />
+          <div class="p-3">
+            <a href="https://deepmind.com">
+              <img src="../img/Google_DeepMind_logo.svg" style="padding: 10px 0px 10px; height: 110px" class="mx-1" />
+            </a>
+
+            <br />
+
+            <a href="https://basis.ai">
+              <img src="../img/basis-logo.svg" style="padding: 20px 0px 10px; height: 100px" class="mx-1" />
+            </a>
+          </div>
+
+          <div class="row">
+            <hr />
+            <p>
+              Questions? Contact us at
+              <a href="mailto:symposium.approximateinference@gmail.com">symposium.approximateinference@gmail.com</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <footer>&nbsp;</footer>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+</body>
+
+</html>

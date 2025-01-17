@@ -1,0 +1,44 @@
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /var/www/approximateinference.org;
+        index index.html index.htm;
+
+        # Make site accessible from http://localhost/
+        server_name approximateinference.org www.approximateinference.org;
+
+        location / {
+                # 1. Attempt to serve request as file.
+                # 2. Attempt to serve request as directory.
+                # 3. Attempt to serve request from previous years.
+                # 4. Display 404.
+                try_files $uri $uri/ /2015$uri /2016$uri =404;
+                # Uncomment to enable naxsi on this location
+                # include /etc/nginx/naxsi.rules
+        }
+
+        error_page 404 /404.html;
+
+        # redirect server error pages to the static page /50x.html
+        #
+        error_page 500 502 503 504 /50x.html;
+        location = /50x.html {
+                root /var/www/approximateinference.org;
+        }
+
+        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+        #
+        location ~ \.php$ {
+                fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        ## NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
+
+                # With php5-cgi alone:
+                #fastcgi_pass 127.0.0.1:9000;
+                # With php5-fpm:
+                fastcgi_pass unix:/var/run/php5-fpm.sock;
+                fastcgi_index index.php;
+                include fastcgi_params;
+        }
+
+}
