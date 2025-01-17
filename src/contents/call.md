@@ -78,7 +78,7 @@ To submit workshop track papers, please use the OpenReview submission link (comi
 
 ### Fast Track
 
-We also invite researchers to present papers on the development, analysis, or application of approximate Bayesian inference that have previously been accepted at major machine learning conferences and journals–such as ICLR, ICML, UAI, AISATS, as well as JMLR and TMLR–since AABI 2024. These papers should be formatted according to the camera-ready standards of their respective venues. Author names do not need to be anonymized. AABI Fast Track is non-archival and does not have proceedings to avoid conflict with other venues' double submission policies.
+We also invite researchers to present papers on the development, analysis, or application of approximate Bayesian inference that have previously been accepted at major machine learning conferences and journals – such as ICLR and AISTATS, as well as JMLR and TMLR – since AABI 2024. These papers should be formatted according to the camera-ready standards of their respective venues. Author names do not need to be anonymized. AABI Fast Track is non-archival and does not have proceedings to avoid conflict with other venues' double submission policies.
 
 Papers accepted within this modality will be presented in person as posters. These papers will not appear on the AABI website.
 
