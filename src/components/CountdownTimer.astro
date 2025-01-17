@@ -1,0 +1,18 @@
+---
+import { calculateTimeLeft } from "@/utils";
+import { TZDate } from "@date-fns/tz";
+
+interface Props {
+  year: number;
+  month: number;
+  day: number;
+}
+
+const { year, month, day } = Astro.props;
+
+const targetDate = new TZDate(year, month-1, day, "-12"); // AoE is UTC-12
+console.log(targetDate);
+const timeLeft = calculateTimeLeft(targetDate);
+---
+
+{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m
