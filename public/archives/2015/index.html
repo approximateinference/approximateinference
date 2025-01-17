@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Dustin Tran">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>Approximate Inference</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+
+    <div class="row" style="padding:20px">
+
+      <div class="hidden-xs col-sm-3 col-md-2">
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-9">
+        <div class="row" style="margin-bottom:-10px;">
+          <a href="http://nips.cc">
+            <img src="/img/nips.svg" class="pull-right" style="margin:0px -90px
+            0 0; height:140px; width:250px;">
+          </a>
+          <h2>Advances in Approximate Bayesian Inference</h2>
+          <p class="lead">
+            NIPS 2015 Workshop;
+            December 11, 2015<br>
+            Room 513 ab,
+            Palais des Congrès de Montréal,
+            Montréal, Canada<br>
+          </p>
+        </div>
+      </div>
+
+       <div class="col-xs-12 col-sm-3 col-md-2" id="sidebar" role="navigation">
+        <hr>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="./">Home</a></li>
+          <li><a href="./schedule/index.html">Schedule</a></li>
+          <li><a href="./call/index.html">Call for Papers</a></li>
+          <li><a href="./accepted/index.html">Accepted Papers</a></li>
+          <li><a href="./program/index.html">Program Committee</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-9 col-md-9">
+        <hr>
+        <div class="row">
+          <p>
+          <strong><span style="color:red;">NOTE</span>: You are viewing the 2015 year of the workshop.
+          To view the most recent workshop, see <a href="../">here</a>.</strong>
+          </p>
+          <p>
+          The ever-increasing size of data sets has resulted in an immense
+          effort in Bayesian statistics to develop more expressive probabilistic
+          models. Inference remains a challenge and limits the use of these
+          models in large-scale scientific and industrial applications. Thus we
+          must resort to approximate inference, which is computationally
+          efficient on massive and streaming data—without compromising on
+          the complexity of these models. This workshop aims to bring together
+          researchers and practitioners in order to discuss recent advances in
+          approximate inference; we also aim to discuss the methodological and
+          foundational issues in such techniques in order to consider future
+          improvements.
+          </p>
+          <p>
+          The resurgence of interest in approximate inference has furthered
+          development in many techniques: for example, scalability, black box
+          techniques, and dependency in variational inference; divide
+          and conquer techniques in expectation propagation; dimensionality
+          reduction using random projections; and stochastic variants of Laplace
+          approximation-based methods. Despite this interest, there remain
+          significant trade-offs in speed, accuracy, generalizability, and
+          learned model complexity. In this workshop, we will discuss how to
+          rigorously characterize these tradeoffs, as well as how they might be
+          made more favourable.  Moreover, we will address the issues of its
+          adoption in scientific communities which could benefit from advice on
+          their practical usage and the development of relevant software
+          packages.
+          </p>
+          <p>
+          This workshop is a continuation of past years:
+          <ul>
+            <li><a
+            href="https://sites.google.com/site/variationalworkshop/">NIPS 2014
+            Workshop: Advances in Variational Inference</a></li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="row">
+          <h3>Invited Speakers and Panelists</h3>
+          <hr>
+          <p>
+          Invited speakers
+          <ul>
+            <li><a href="http://www.stat.washington.edu/~ebfox/">Emily Fox</a>
+            (University of Washington)</li>
+            <li><a href="http://www.cs.princeton.edu/~rajeshr/">Rajesh
+            Ranganath</a> (Princeton University)</li>
+            <li><a href="http://jameshensman.github.io">James Hensman</a>
+            (Lancaster University)</li>
+            <li><a
+            href="http://www.eecs.tu-berlin.de/menue/einrichtungen/professuren/professorinnen/opper">Manfred
+            Opper</a> (Technische Universität Berlin)</li>
+            <li><a href="http://web.stanford.edu/~montanar/">Andrea
+            Montanari</a> (Stanford University)</li>
+          </ul>
+          </p>
+          <p>
+          Panel: <em>Tricks of the Trade</em>
+          <ul>
+            <li><a href="http://www.cs.princeton.edu/~mdhoffma">Matt
+            Hoffman</a> (Adobe Research)</li>
+            <li><a href="#">Danilo Rezende</a> (Google DeepMind)</li>
+            <li><a href="http://people.seas.harvard.edu/~dduvenaud/">David
+            Duvenaud</a> (Harvard University)</li>
+            <li><a href="http://www.proditus.com">Alp Kucukelbir</a> (Columbia
+            University)</li>
+            <li><a href="http://www.stephanmandt.com">Stephan Mandt</a>
+            (Columbia University)</li>
+            <li><a
+            href="http://www.homepages.ucl.ac.uk/~ucakmjb/">Michael
+            Betancourt</a> (University of Warwick)</li>
+          </ul>
+          </p>
+          <p>
+          Panel: <em>On the Foundations and Future of Approximate Inference</em>
+          <ul>
+            <li><a href="http://www.ics.uci.edu/~welling/">Max Welling</a>
+            (University of Amsterdam)</li>
+            <li><a href="http://www.stats.ox.ac.uk/~teh/">Yee Whye Teh</a>
+            (University of Oxford)</li>
+            <li><a href="http://www.stat.columbia.edu/~gelman/">Andrew
+            Gelman</a> (Columbia University)</li>
+            <li><a href="http://www.stat.osu.edu/~snm/">Steve MacEachern</a>
+            (Ohio State University)</li>
+            <li><a href="http://www.ulrichpaquet.com/">Ulrich Paquet</a>
+            (Apple)</li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="row">
+          <h3>Organizers</h3>
+          <hr>
+          <p>
+          <ul>
+            <li><a href="http://dustintran.com">Dustin Tran</a> (Harvard
+            University)</li>
+            <li><a href="http://tamarabroderick.com">Tamara Broderick</a>
+            (MIT)</li>
+            <li><a href="http://www.shakirm.com">Shakir Mohamed</a> (Google
+            DeepMind)</li>
+            <li><a href="http://www.proditus.com">Alp Kucukelbir</a> (Columbia
+            University)</li>
+            <li><a href="http://www.stephanmandt.com">Stephan Mandt</a>
+            (Columbia University)</li>
+            <li><a href="http://jamesmc.com">James McInerney</a> (Columbia
+            University)</li>
+            <li><a href="http://www.cs.princeton.edu/~mdhoffma">Matt
+            Hoffman</a> (Adobe Research)</li>
+            <li><a href="http://www.cs.columbia.edu/~blei">David Blei</a>
+            (Columbia University)</li>
+            <li><a href="http://inverseprobability.com">Neil Lawrence</a>
+            (University of Sheffield)</li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="row">
+          <h3>Support</h3>
+          <hr>
+          <a href="http://bayesian.org">
+            <img src="../img/isba.gif"></img>
+          </a>
+          <a href="http://www.adobe.com/technology.html">
+            <img src="../img/adobe.jpg" style="height:150px;"></img>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <footer>
+    &nbsp;
+    </footer>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>

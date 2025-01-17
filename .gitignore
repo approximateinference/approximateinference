@@ -3,6 +3,5 @@ node_modules
 .DS_Store
 .vscode
 .jekyll-metadata
-archives/
 .jekyll-cache
 dist/
