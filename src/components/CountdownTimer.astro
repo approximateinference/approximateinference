@@ -10,8 +10,7 @@ interface Props {
 
 const { year, month, day } = Astro.props;
 
-const targetDate = new TZDate(year, month-1, day, "-12"); // AoE is UTC-12
-console.log(targetDate);
+const targetDate = new TZDate(year, month - 1, day, "-12"); // AoE is UTC-12
 const timeLeft = calculateTimeLeft(targetDate);
 ---
 
