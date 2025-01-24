@@ -51,7 +51,7 @@ Acknowledgements, references, and appendices do not contribute to the page limit
 
 The proceedings track is AABI’s archival research paper track. Submissions will go through a rigorous double-blind open peer-review process. All accepted papers will be presented at the symposium as contributed talks and/or posters and will all be published in the proceedings.
 
-A submission is no longer than 12 pages in PDF format using the AABI PMLR one-column style ([**template**](https://approximateinference.org/pmlr/aabi2024proceedings.zip)). For questions and troubleshooting, visit [CTAN](https://ctan.org/tex-archive/macros/latex/contrib/jmlr).
+A submission is no longer than 12 pages in PDF format using the AABI PMLR one-column style ([**template**](aabi2025proceedings.zip)). For questions and troubleshooting, visit [CTAN](https://ctan.org/tex-archive/macros/latex/contrib/jmlr).
 
 Author names need to be anonymized and may not contain any information that can break anonymity. References may extend as far as needed beyond the page limit. Submissions may include a supplement, but reviewers are not required to read any supplementary material. Preprints must not be explicitly identified as AABI submissions, and we recommend that authors avoid advertising the material during the review process.
 
@@ -65,7 +65,7 @@ To submit proceedings track papers, please use the [OpenReview submission link](
 
 ### Workshop Track
 
-A workshop track submission should take the form of an extended abstract of 3-6 pages in PDF format. Submissions may use the AABI PMLR one-column style ([**template**](https://approximateinference.org/pmlr/aabi2024workshop.zip)) or the format of any other workshop so long as the length is not more than 6 pages.
+A workshop track submission should take the form of an extended abstract of 3-6 pages in PDF format. Submissions may use the AABI PMLR one-column style ([**template**](aabi2025proceedings.zip)) or the format of any other workshop so long as the length is not more than 6 pages.
 For questions and troubleshooting, visit [CTAN](https://ctan.org/tex-archive/macros/latex/contrib/jmlr).
 
 The review process will be double-blind. Author names need to be anonymized and references may extend as far as needed beyond the 6-page limit. Submissions may include a supplement/appendix, but reviewers are not required to read any supplementary material. Final decisions and reviews will be released on 18 March 2025.
