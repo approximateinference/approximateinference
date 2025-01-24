@@ -61,7 +61,7 @@ Proceedings track papers published at AABI will be indexed in the Proceedings of
 
 **Dual submission policy:** Submitted manuscripts should not have been previously published in the proceedings of a conference or in a journal, nor should they be under consideration for publication at another conference or journal at any point during the AABI review process. Extended abstracts and/or preprints (such as arXiv) in non-archival venues will not be considered concurrent submissions.
 
-To submit proceedings track papers, please use the OpenReview submission link (coming soon).
+To submit proceedings track papers, please use the [OpenReview submission link](https://openreview.net/group?id=approximateinference.org/AABI/2025/Proceedings_Track).
 
 ### Workshop Track
 
@@ -74,7 +74,7 @@ All accepted submissions will be presented in person as posters. Note that the w
 
 **Dual submission policy:** If a paper has previously appeared in a journal, workshop, or conference, it should be extended in order to be accepted at the AABI 2025. If a paper is currently under review, it can still be submitted to the AABI workshop track.
 
-To submit workshop track papers, please use the OpenReview submission link (coming soon).
+To submit workshop track papers, please use the [OpenReview submission link](https://openreview.net/group?id=approximateinference.org/AABI/2025/Workshop_Track).
 
 ### Fast Track
 
