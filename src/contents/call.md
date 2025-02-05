@@ -15,7 +15,7 @@ We are delighted to continue the archival AABI proceedings track, where full res
 
 **Proceedings and Workshop Tracks**
 
-- Submission deadline (Proceedings and Workshop Tracks): 7 February 2025 (11:59pm AoE)
+- **[Extended]** Submission deadline (Proceedings, Workshop): 14 February 2025 (11:59pm AoE)
 - Reviews released (Proceedings Track): 28 February 2025
 - Author rebuttal due (Proceedings Track): 7 March 2025 (11:59pm AoE)
 - Acceptance notification (Proceedings, Workshop): 18 March 2025
